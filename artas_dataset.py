@@ -7,9 +7,6 @@ from selenium.webdriver.firefox.options import Options
 import time
 
 
-
-
-
 def generation_image(polygon_coords , nom):
     #Génère une image PNG à partir d'une liste de coordonnées
     # exemple : polygon_coords = [(45.523, -122.675),
@@ -61,45 +58,65 @@ def generation_image(polygon_coords , nom):
     driver.quit()
 def menu(xml_dico):
     zone = -1
-    while zone < 0 or zone > 9:
+    while zone < 0 or zone > 5:
         print(
           "- 0 => Quitter\n"
-          "- 1 => ENRTAs\n"
-          "- 2 => TMAs\n"
-          "- 3 => SIDs\n"
-          "- 4 => STARs\n"
-          "- 5 => TRAs\n"
-          "- 6 => MAs\n"
-          "- 7 => Air Routes\n"
-          "- 8 => ICCAs\n"
-          "- 9 => All\n")
+          "- 1 => Runway\n"
+          "- 2 => TMA\n"
+          "- 3 => ERA\n"
+          "- 4 => ICCA\n"
+          "- 5 => UNIT DOI\n"
+          "- 6 => All\n")
         try :
             zone = int(input("Veuillez choisir le numero de la zone a tracer ou quittez (0):\n"))
         except:
-            print("Erreur : Veuillez saisir un chiffre compris entre 0 et 9 correspondant a la zone SVP")
+            print("Erreur : Veuillez saisir un chiffre compris entre 0 et 5 correspondant a la zone SVP")
     match zone:
         case 0:
              exit ()
         case 1:
-            traitement_enrta (xml_dico)
+            traitement_runway (xml_dico)
         case 2:
             traitement_tma (xml_dico)
         case 3:
-            traitement_sid (xml_dico)
+            traitement_era (xml_dico)
         case 4:
-            traitement_star (xml_dico)
-        case 5:
-            traitement_tra (xml_dico)
-        case 6:
-            traitement_ma (xml_dico)
-        case 7:
-            traitement_air (xml_dico)
-        case 8:
             traitement_icca (xml_dico)
-        case 9:
+        case 5:
+            traitement_doi (xml_dico)
+        case 6:
             traitement_all (xml_dico)
         
-def  traitement_enrta (xml_dico):
+def  traitement_runway (xml_dico):
+    print("------------ Tracé des zones Runways ------------")
+    runway_list = xml_dico['dataset']['runway_main']['runway']
+    if isinstance(runway_list, dict):  # Vérifie si c'est un dictionnaire
+        runway_list = [runway_list]  # Convertit en une liste avec un seul élément
+    for runway in runway_list:
+        coodinates =[]
+        for pos in runway['points']['pos']:
+            lat = float(pos['lat'])
+            lon = float(pos['lon'])
+            coodinates.append((lat, lon))
+        generation_image (coodinates, runway['name'] + '.png')
+    return 0 
+
+def traitement_tma (xml_dico):
+    print("------------ Tracé des zones TMA ------------")
+    tma_list = xml_dico['dataset']['tma_main']['tma']
+    if isinstance(tma_list, dict):  # Vérifie si c'est un dictionnaire
+        tma_list = [tma_list]  # Convertit en une liste avec un seul élément
+    for tma in tma_list:
+        coodinates =[]
+        for pos in tma['area']['pos']:
+            lat = float(pos['lat'])
+            lon = float(pos['lon'])
+            coodinates.append((lat, lon))
+        generation_image (coodinates, tma['name'] + '.png')
+    return 0
+
+def traitement_era (xml_dico):
+    print("------------ Tracé des zones ERA ------------")
     enrta_list = xml_dico['dataset']['enrta_main']['enrta']
     if isinstance(enrta_list, dict):  # Vérifie si c'est un dictionnaire
         enrta_list = [enrta_list]  # Convertit en une liste avec un seul élément
@@ -112,68 +129,38 @@ def  traitement_enrta (xml_dico):
         generation_image (coodinates, enrta['name'] + '.png')
     return 0 
 
-def traitement_tma (xml_dico):
-    enrta_list = xml_dico['dataset']['tma_main']['tma']
-    if isinstance(enrta_list, dict):  # Vérifie si c'est un dictionnaire
-        enrta_list = [enrta_list]  # Convertit en une liste avec un seul élément
-    for tma in enrta_list:
-        coodinates =[]
-        for pos in tma['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, tma['name'] + '.png')
-    return 0
-
-def traitement_sid (xml_dico):
-    sid_list = xml_dico['dataset']['sid_main']['sid']
-    if isinstance(sid_list, dict):  # Vérifie si c'est un dictionnaire
-        sid_list = [sid_list]  # Convertit en une liste avec un seul élément
-    for sid in sid_list:
-        coodinates =[]
-        for pos in sid['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, sid['name'] + '.png')
-    return 0
-
-def traitement_star (xml_dico):
-    return 0
-def traitement_tra (xml_dico):
-    return 0
-def traitement_ma (xml_dico):
-    return 0
-def traitement_air (xml_dico):
-    return 0
-def  traitement_all (xml_dico):
-    return 0
 def traitement_icca (xml_dico):
-    for icca in xml_dico['dataset']['icca_main']['icca']:
-        print(icca['name'])
+    print("------------ Tracé des zones ICCA ------------")
+    icca_list = xml_dico['dataset']['icca_main']['icca']
+    if isinstance(icca_list, dict):  # Vérifie si c'est un dictionnaire
+        icca_list = [icca_list]  # Convertit en une liste avec un seul élément
+    for icca in icca_list:
         coodinates =[]
         for pos in icca['area']['pos']:
             lat = float(pos['lat'])
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
-        print (coodinates)
         generation_image (coodinates, icca['name'] + '.png')
 
-
 def traitement_doi(xml_dico):
-    i=0
+    print("----------- Tracé de la zone DOI UNIT ------------")
+    coodinates =[]
     for doi in xml_dico['dataset']['unit_doi_main']['unit_doi']:
-        #print(doi['name'])
-        coodinates =[]
-    
-        i=i+1
-        print (doi)
         dir = 1 if "doi_long_e" in doi else -1
         lat = dms_to_deg(float(doi['doi_lat_deg']),float(doi['doi_lat_min']),float(doi['doi_lat_sec']),float(doi['doi_lat_n']))
         lon = dms_to_deg(float(doi['doi_long_deg']),float(doi['doi_long_min']),float(doi['doi_long_sec']),dir)
         coodinates.append((lat, lon))
-        print (coodinates)
-        generation_image (coodinates, 'doi_{}.png'.format(i))
+    print (coodinates)
+    generation_image (coodinates, "unit_doi.png")
+
+
+def  traitement_all (xml_dico):
+    print("----------- Tracé de toutes les zones de la dataset fournie ------------")
+    traitement_runway (xml_dico)
+    traitement_tma (xml_dico)
+    traitement_era (xml_dico)
+    traitement_icca (xml_dico)
+    return 0
 
 def dms_to_deg(degrees, minutes, seconds,dir):
     # Calcul du degré décimal
@@ -184,20 +171,21 @@ def dms_to_deg(degrees, minutes, seconds,dir):
         return -dd
 
 def main():
-    data="4F_E0209.xml"
-    #data='4F_O0502.xml'
-    with open(data, 'r') as file:
-        xml_string = file.read()
+    dataset = input("Veuillez saisir le nom ou le chemin de la dataset.xml à traiter (defaut = 4F_E0209) :\n")
+    
+    if dataset.strip() == "" :
+        dataset = "4F_E0209.xml"
+    
+    try:    
+        with open(dataset, 'r') as file:
+            xml_string = file.read()
+    except:
+        print ("Error: L'ouverture du Fichier {} à echoué, veuillez verifier le nom ou le chemin".format(dataset))
+        exit ()
         
     xml_dico = xmltodict.parse(xml_string)
     
     menu (xml_dico)
-    #traitement_icca(xml_dico)
-    #traitement_doi(xml_dict)
-    #print (xml_dict)
-    
-
-
 
 
 if __name__ == "__main__":
