@@ -1,0 +1,2129 @@
+1684333804085	geckodriver	INFO	Listening on 127.0.0.1:64266
+1684333804663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileEX6nd1"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684333805263	Marionette	INFO	Marionette enabled
+1684333805270	Marionette	INFO	Listening on port 64274
+WebDriver BiDi listening on ws://localhost:64267
+Read port: 64274
+1684333805495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileEX6nd1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64267/devtools/browser/9881846b-cb83-4800-893c-8340b94d6026
+Port.onMessage event fired while context is inactive.
+1684333818715	Marionette	INFO	Stopped listening on port 64274
+1684333953382	geckodriver	INFO	Listening on 127.0.0.1:64404
+1684333953949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileWV3BY3"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684333954521	Marionette	INFO	Marionette enabled
+1684333954530	Marionette	INFO	Listening on port 64412
+Read port: 64412
+WebDriver BiDi listening on ws://localhost:64405
+1684333954793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileWV3BY3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64405/devtools/browser/67659107-6558-429d-8ea2-28824c3148da
+1684333964152	Marionette	INFO	Stopped listening on port 64412
+1684334033449	geckodriver	INFO	Listening on 127.0.0.1:64491
+1684334034015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilepHaC3m"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334034532	Marionette	INFO	Marionette enabled
+1684334034537	Marionette	INFO	Listening on port 64500
+WebDriver BiDi listening on ws://localhost:64492
+Read port: 64500
+1684334034801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilepHaC3m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64492/devtools/browser/bd30570d-6d60-4974-b86a-40092f036c6a
+1684334047203	Marionette	INFO	Stopped listening on port 64500
+1684334060873	geckodriver	INFO	Listening on 127.0.0.1:64571
+1684334061443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileVeoiua"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334061988	Marionette	INFO	Marionette enabled
+1684334061994	Marionette	INFO	Listening on port 64579
+WebDriver BiDi listening on ws://localhost:64572
+Read port: 64579
+1684334062236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileVeoiua\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64572/devtools/browser/c1e01e41-a1ea-43b2-a9e1-329c763ba480
+1684334071074	Marionette	INFO	Stopped listening on port 64579
+1684334086090	geckodriver	INFO	Listening on 127.0.0.1:64672
+1684334086647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileLJzigR"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334087176	Marionette	INFO	Marionette enabled
+1684334087181	Marionette	INFO	Listening on port 64680
+WebDriver BiDi listening on ws://localhost:64673
+Read port: 64680
+1684334087448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileLJzigR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64673/devtools/browser/b63495e3-f1f0-4c4f-829e-f40883ce66ce
+1684334097076	Marionette	INFO	Stopped listening on port 64680
+1684334102061	geckodriver	INFO	Listening on 127.0.0.1:64755
+1684334102630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileDQ4KwG"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334103166	Marionette	INFO	Marionette enabled
+1684334103172	Marionette	INFO	Listening on port 64763
+WebDriver BiDi listening on ws://localhost:64756
+Read port: 64763
+1684334103388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileDQ4KwG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64756/devtools/browser/0d671976-8b9c-482a-90a6-0f3a917ff719
+1684334112255	Marionette	INFO	Stopped listening on port 64763
+1684334117125	geckodriver	INFO	Listening on 127.0.0.1:64857
+1684334117681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilekja2cx"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334118202	Marionette	INFO	Marionette enabled
+1684334118207	Marionette	INFO	Listening on port 64865
+WebDriver BiDi listening on ws://localhost:64858
+Read port: 64865
+1684334118420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilekja2cx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64858/devtools/browser/437c3b96-210e-4c27-80c3-33336d2d843e
+1684334127788	Marionette	INFO	Stopped listening on port 64865
+1684334132641	geckodriver	INFO	Listening on 127.0.0.1:64941
+1684334133208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64942" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileliMtld"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334133734	Marionette	INFO	Marionette enabled
+1684334133740	Marionette	INFO	Listening on port 64949
+WebDriver BiDi listening on ws://localhost:64942
+Read port: 64949
+1684334133958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileliMtld\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64942/devtools/browser/b53547b9-91fb-42ff-91fd-f42a5028963e
+1684334142569	Marionette	INFO	Stopped listening on port 64949
+1684334147518	geckodriver	INFO	Listening on 127.0.0.1:65044
+1684334148088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileOVhswy"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334148606	Marionette	INFO	Marionette enabled
+1684334148611	Marionette	INFO	Listening on port 65052
+WebDriver BiDi listening on ws://localhost:65045
+Read port: 65052
+1684334148820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileOVhswy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65045/devtools/browser/9ab732c0-360d-4168-82eb-ca7a74b0a6a2
+1684334158136	Marionette	INFO	Stopped listening on port 65052
+1684334163084	geckodriver	INFO	Listening on 127.0.0.1:54155
+1684334163640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54156" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilel9jV2G"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334164178	Marionette	INFO	Marionette enabled
+1684334164184	Marionette	INFO	Listening on port 54163
+WebDriver BiDi listening on ws://localhost:54156
+Read port: 54163
+1684334164400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilel9jV2G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54156/devtools/browser/a2d78ed4-0628-453e-80de-ff4507514a57
+1684334173317	Marionette	INFO	Stopped listening on port 54163
+1684334374906	geckodriver	INFO	Listening on 127.0.0.1:54266
+1684334375478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileqtGdgi"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334376047	Marionette	INFO	Marionette enabled
+1684334376053	Marionette	INFO	Listening on port 54275
+WebDriver BiDi listening on ws://localhost:54267
+Read port: 54275
+1684334376283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileqtGdgi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54267/devtools/browser/163dc974-a37b-49f4-8b4a-f5e0050dd961
+1684334385548	Marionette	INFO	Stopped listening on port 54275
+1684334390447	geckodriver	INFO	Listening on 127.0.0.1:54345
+1684334391049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54346" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileBj4uiM"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334391576	Marionette	INFO	Marionette enabled
+1684334391581	Marionette	INFO	Listening on port 54353
+WebDriver BiDi listening on ws://localhost:54346
+Read port: 54353
+1684334391793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileBj4uiM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54346/devtools/browser/88c1de66-6680-4cea-9e18-451cc60e642b
+1684334400638	Marionette	INFO	Stopped listening on port 54353
+1684334405597	geckodriver	INFO	Listening on 127.0.0.1:54430
+1684334406158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileqvuasY"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334406698	Marionette	INFO	Marionette enabled
+1684334406704	Marionette	INFO	Listening on port 54438
+WebDriver BiDi listening on ws://localhost:54431
+Read port: 54438
+1684334406923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileqvuasY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54431/devtools/browser/7b28e978-3f60-4988-94de-3c757dffb746
+1684334416225	Marionette	INFO	Stopped listening on port 54438
+1684334421283	geckodriver	INFO	Listening on 127.0.0.1:54516
+1684334421828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilepv69Vn"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334422381	Marionette	INFO	Marionette enabled
+1684334422387	Marionette	INFO	Listening on port 54524
+WebDriver BiDi listening on ws://localhost:54517
+Read port: 54524
+1684334422603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilepv69Vn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54517/devtools/browser/f3e2022f-0cfe-4f6c-8f2a-afaf05f7a179
+1684334431553	Marionette	INFO	Stopped listening on port 54524
+1684334436492	geckodriver	INFO	Listening on 127.0.0.1:54599
+1684334437054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54600" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilejuqpZD"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334437606	Marionette	INFO	Marionette enabled
+1684334437612	Marionette	INFO	Listening on port 54608
+WebDriver BiDi listening on ws://localhost:54600
+Read port: 54608
+1684334437820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilejuqpZD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54600/devtools/browser/8d7220c0-95da-4978-b234-58a3d1cf33c2
+1684334446726	Marionette	INFO	Stopped listening on port 54608
+1684334451738	geckodriver	INFO	Listening on 127.0.0.1:54686
+1684334452296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54687" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileF6qoFG"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334452855	Marionette	INFO	Marionette enabled
+1684334452861	Marionette	INFO	Listening on port 54694
+WebDriver BiDi listening on ws://localhost:54687
+Read port: 54694
+1684334453071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileF6qoFG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54687/devtools/browser/c66df0aa-d46e-4ebd-b257-6625da08fef6
+1684334461994	Marionette	INFO	Stopped listening on port 54694
+1684334466955	geckodriver	INFO	Listening on 127.0.0.1:54769
+1684334467525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileXBDrIK"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334468079	Marionette	INFO	Marionette enabled
+1684334468085	Marionette	INFO	Listening on port 54777
+WebDriver BiDi listening on ws://localhost:54770
+Read port: 54777
+1684334468307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileXBDrIK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54770/devtools/browser/21f4e6bb-0bef-41eb-9a21-1132ac16b297
+1684334477615	Marionette	INFO	Stopped listening on port 54777
+1684334482680	geckodriver	INFO	Listening on 127.0.0.1:54858
+1684334483234	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilekCirAX"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684334483773	Marionette	INFO	Marionette enabled
+1684334483779	Marionette	INFO	Listening on port 54866
+WebDriver BiDi listening on ws://localhost:54859
+Read port: 54866
+1684334483987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilekCirAX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54859/devtools/browser/b3409022-3fff-488c-9256-cbbeb872cec2
+1684334492863	Marionette	INFO	Stopped listening on port 54866
+1684336029048	geckodriver	INFO	Listening on 127.0.0.1:54368
+1684336029620	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile3m54a3"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336030158	Marionette	INFO	Marionette enabled
+1684336030164	Marionette	INFO	Listening on port 54377
+WebDriver BiDi listening on ws://localhost:54369
+Read port: 54377
+1684336030412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile3m54a3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54369/devtools/browser/0d1bfb02-1b8f-4ed7-a895-811f43372afd
+1684336040335	Marionette	INFO	Stopped listening on port 54377
+1684336045289	geckodriver	INFO	Listening on 127.0.0.1:54445
+1684336045861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54446" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileoxUUJB"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336046433	Marionette	INFO	Marionette enabled
+1684336046440	Marionette	INFO	Listening on port 54453
+WebDriver BiDi listening on ws://localhost:54446
+Read port: 54453
+1684336046666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileoxUUJB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54446/devtools/browser/80453650-5345-40c4-8fb8-9d7ea50400ef
+1684336056377	Marionette	INFO	Stopped listening on port 54453
+[Parent 9040, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1684336061342	geckodriver	INFO	Listening on 127.0.0.1:54545
+1684336061915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54546" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileAakUZX"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336062487	Marionette	INFO	Marionette enabled
+1684336062493	Marionette	INFO	Listening on port 54553
+Read port: 54553
+WebDriver BiDi listening on ws://localhost:54546
+1684336062714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileAakUZX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54546/devtools/browser/1c24d0a3-a31e-4523-93dc-c21fdb6ff146
+1684336072722	Marionette	INFO	Stopped listening on port 54553
+1684336077718	geckodriver	INFO	Listening on 127.0.0.1:54630
+1684336078302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilequU9u8"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336078891	Marionette	INFO	Marionette enabled
+1684336078896	Marionette	INFO	Listening on port 54638
+WebDriver BiDi listening on ws://localhost:54631
+Read port: 54638
+1684336079109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilequU9u8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54631/devtools/browser/6d9fa31b-5130-4cc6-93f7-01f1de103b4d
+1684336088661	Marionette	INFO	Stopped listening on port 54638
+1684336093714	geckodriver	INFO	Listening on 127.0.0.1:54731
+1684336094276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54732" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilebJLfNy"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336094812	Marionette	INFO	Marionette enabled
+1684336094819	Marionette	INFO	Listening on port 54739
+WebDriver BiDi listening on ws://localhost:54732
+Read port: 54739
+1684336095037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilebJLfNy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54732/devtools/browser/0bd5b218-f710-4c12-9990-67c417ac2013
+1684336104836	Marionette	INFO	Stopped listening on port 54739
+1684336109781	geckodriver	INFO	Listening on 127.0.0.1:54817
+1684336110370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54818" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilezJddeI"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336110923	Marionette	INFO	Marionette enabled
+1684336110929	Marionette	INFO	Listening on port 54825
+WebDriver BiDi listening on ws://localhost:54818
+Read port: 54825
+1684336111148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilezJddeI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54818/devtools/browser/6542ca18-49d8-42e7-9c6f-dc206e5369e4
+1684336120647	Marionette	INFO	Stopped listening on port 54825
+1684336125704	geckodriver	INFO	Listening on 127.0.0.1:54911
+1684336126280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54912" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile4vqjtu"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336126834	Marionette	INFO	Marionette enabled
+1684336126840	Marionette	INFO	Listening on port 54919
+WebDriver BiDi listening on ws://localhost:54912
+Read port: 54919
+1684336127055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile4vqjtu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54912/devtools/browser/86ae431a-af71-4d39-b8a8-a5b90bb16d1e
+1684336136907	Marionette	INFO	Stopped listening on port 54919
+1684336141846	geckodriver	INFO	Listening on 127.0.0.1:54998
+1684336142415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileypQn3n"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336142985	Marionette	INFO	Marionette enabled
+1684336142991	Marionette	INFO	Listening on port 55007
+WebDriver BiDi listening on ws://localhost:54999
+Read port: 55007
+1684336143202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileypQn3n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54999/devtools/browser/d5de6a23-28b2-4841-8c8f-7a75be8b5e93
+1684336152946	Marionette	INFO	Stopped listening on port 55007
+1684336157921	geckodriver	INFO	Listening on 127.0.0.1:55095
+1684336158497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55096" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileSXI9U5"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336159040	Marionette	INFO	Marionette enabled
+1684336159046	Marionette	INFO	Listening on port 55103
+WebDriver BiDi listening on ws://localhost:55096
+Read port: 55103
+1684336159259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileSXI9U5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55096/devtools/browser/3fa23090-918e-4185-90f5-edf35b4d1dd5
+1684336168896	Marionette	INFO	Stopped listening on port 55103
+1684336173915	geckodriver	INFO	Listening on 127.0.0.1:55181
+1684336174478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilecirvpH"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336175023	Marionette	INFO	Marionette enabled
+1684336175029	Marionette	INFO	Listening on port 55189
+WebDriver BiDi listening on ws://localhost:55182
+Read port: 55189
+1684336175249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilecirvpH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55182/devtools/browser/c9239d2e-795f-438b-be12-c154937ae00e
+1684336184257	Marionette	INFO	Stopped listening on port 55189
+[Parent 19344, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1684336189145	geckodriver	INFO	Listening on 127.0.0.1:55279
+1684336189707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55280" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileWmDvOo"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336190277	Marionette	INFO	Marionette enabled
+1684336190283	Marionette	INFO	Listening on port 55287
+WebDriver BiDi listening on ws://localhost:55280
+Read port: 55287
+1684336190499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileWmDvOo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55280/devtools/browser/4eb60212-b194-46fa-b015-739965235009
+1684336199876	Marionette	INFO	Stopped listening on port 55287
+1684336204818	geckodriver	INFO	Listening on 127.0.0.1:55362
+1684336205392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilePaQG6Q"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336205937	Marionette	INFO	Marionette enabled
+1684336205943	Marionette	INFO	Listening on port 55370
+WebDriver BiDi listening on ws://localhost:55363
+Read port: 55370
+1684336206154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilePaQG6Q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55363/devtools/browser/12e0dd38-900f-4213-ad35-c6b492a0708b
+1684336215221	Marionette	INFO	Stopped listening on port 55370
+1684336220223	geckodriver	INFO	Listening on 127.0.0.1:55466
+1684336220794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile0JjQM0"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336221352	Marionette	INFO	Marionette enabled
+1684336221358	Marionette	INFO	Listening on port 55474
+WebDriver BiDi listening on ws://localhost:55467
+Read port: 55474
+1684336221570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile0JjQM0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55467/devtools/browser/9d75ef72-5ec7-4080-a9e9-5621b57dee08
+1684336231276	Marionette	INFO	Stopped listening on port 55474
+1684336236175	geckodriver	INFO	Listening on 127.0.0.1:55552
+1684336236741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55553" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileEXde10"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336237304	Marionette	INFO	Marionette enabled
+1684336237310	Marionette	INFO	Listening on port 55560
+WebDriver BiDi listening on ws://localhost:55553
+Read port: 55560
+1684336237536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileEXde10\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55553/devtools/browser/dac8e0b8-5167-4ce0-a68b-0e86958e0d3d
+1684336246932	Marionette	INFO	Stopped listening on port 55560
+1684336251857	geckodriver	INFO	Listening on 127.0.0.1:55654
+1684336252439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55655" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilewg8TCG"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336252998	Marionette	INFO	Marionette enabled
+1684336253004	Marionette	INFO	Listening on port 55662
+WebDriver BiDi listening on ws://localhost:55655
+Read port: 55662
+1684336253225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilewg8TCG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55655/devtools/browser/41a190b6-2d14-46d8-8637-b5e35b7fd2d0
+1684336262883	Marionette	INFO	Stopped listening on port 55662
+1684336267835	geckodriver	INFO	Listening on 127.0.0.1:55739
+1684336268401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55740" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilecxcuMd"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336268952	Marionette	INFO	Marionette enabled
+1684336268959	Marionette	INFO	Listening on port 55747
+WebDriver BiDi listening on ws://localhost:55740
+Read port: 55747
+1684336269176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilecxcuMd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55740/devtools/browser/f5bc1341-78bd-4290-9f1d-cb8868c0dbdf
+1684336278325	Marionette	INFO	Stopped listening on port 55747
+1684336283291	geckodriver	INFO	Listening on 127.0.0.1:55836
+1684336283853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilehgl5UQ"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336284415	Marionette	INFO	Marionette enabled
+1684336284420	Marionette	INFO	Listening on port 55844
+WebDriver BiDi listening on ws://localhost:55837
+Read port: 55844
+1684336284633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilehgl5UQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55837/devtools/browser/68ebdd80-542a-4033-9003-e2ce1d3e1344
+1684336294683	Marionette	INFO	Stopped listening on port 55844
+1684336299607	geckodriver	INFO	Listening on 127.0.0.1:55923
+1684336300205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55924" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileOItOC6"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336300751	Marionette	INFO	Marionette enabled
+1684336300757	Marionette	INFO	Listening on port 55931
+WebDriver BiDi listening on ws://localhost:55924
+Read port: 55931
+1684336300970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileOItOC6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55924/devtools/browser/5405c071-1ecd-4148-adfe-35faa9956193
+1684336310733	Marionette	INFO	Stopped listening on port 55931
+1684336315780	geckodriver	INFO	Listening on 127.0.0.1:56020
+1684336316325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileYAvOJe"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336316857	Marionette	INFO	Marionette enabled
+1684336316862	Marionette	INFO	Listening on port 56028
+WebDriver BiDi listening on ws://localhost:56021
+Read port: 56028
+1684336317080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileYAvOJe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56021/devtools/browser/5b641775-4a47-4fa7-aac6-eb3ae525f2ac
+1684336326861	Marionette	INFO	Stopped listening on port 56028
+1684336331871	geckodriver	INFO	Listening on 127.0.0.1:56108
+1684336332436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileiz9DB8"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336333080	Marionette	INFO	Marionette enabled
+1684336333086	Marionette	INFO	Listening on port 56116
+WebDriver BiDi listening on ws://localhost:56109
+Read port: 56116
+1684336333298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileiz9DB8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56109/devtools/browser/a6576a19-be22-49a1-a207-b6fa54942b22
+1684336343176	Marionette	INFO	Stopped listening on port 56116
+1684336348156	geckodriver	INFO	Listening on 127.0.0.1:56191
+1684336348741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile1KMY5h"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336349286	Marionette	INFO	Marionette enabled
+1684336349292	Marionette	INFO	Listening on port 56200
+WebDriver BiDi listening on ws://localhost:56192
+Read port: 56200
+1684336349533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile1KMY5h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56192/devtools/browser/195f94f8-04c0-44c0-beb9-486fc8812c35
+1684336359410	Marionette	INFO	Stopped listening on port 56200
+1684336364397	geckodriver	INFO	Listening on 127.0.0.1:56279
+1684336364969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56280" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileNHblFO"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336365509	Marionette	INFO	Marionette enabled
+1684336365514	Marionette	INFO	Listening on port 56287
+WebDriver BiDi listening on ws://localhost:56280
+Read port: 56287
+1684336365745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileNHblFO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56280/devtools/browser/a6c8dd95-0463-4053-bbc0-9145b9e54191
+1684336375082	Marionette	INFO	Stopped listening on port 56287
+1684336380017	geckodriver	INFO	Listening on 127.0.0.1:56383
+1684336380592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileyqQQWK"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336381144	Marionette	INFO	Marionette enabled
+1684336381150	Marionette	INFO	Listening on port 56391
+WebDriver BiDi listening on ws://localhost:56384
+Read port: 56391
+1684336381367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileyqQQWK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56384/devtools/browser/1526ecca-d160-45f3-843e-4d83e076e44b
+1684336391041	Marionette	INFO	Stopped listening on port 56391
+1684336395957	geckodriver	INFO	Listening on 127.0.0.1:56469
+1684336396523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56470" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilek20ONh"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336397112	Marionette	INFO	Marionette enabled
+1684336397117	Marionette	INFO	Listening on port 56478
+WebDriver BiDi listening on ws://localhost:56470
+Read port: 56478
+1684336397330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilek20ONh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56470/devtools/browser/8da5a0e6-d11b-4004-9c1d-6d63ac02aa34
+1684336406791	Marionette	INFO	Stopped listening on port 56478
+1684336411749	geckodriver	INFO	Listening on 127.0.0.1:56567
+1684336412310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56568" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileX3scWm"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336412873	Marionette	INFO	Marionette enabled
+1684336412879	Marionette	INFO	Listening on port 56575
+WebDriver BiDi listening on ws://localhost:56568
+Read port: 56575
+1684336413093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileX3scWm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56568/devtools/browser/838bf1b8-5c36-4262-a7ee-1278fc78ab83
+1684336422847	Marionette	INFO	Stopped listening on port 56575
+1684336427778	geckodriver	INFO	Listening on 127.0.0.1:56653
+1684336428364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56654" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile8YHwB4"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336428913	Marionette	INFO	Marionette enabled
+1684336428920	Marionette	INFO	Listening on port 56661
+WebDriver BiDi listening on ws://localhost:56654
+Read port: 56661
+1684336429140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile8YHwB4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56654/devtools/browser/dd21f551-6481-477a-910b-4c8e94b0adcf
+1684336438663	Marionette	INFO	Stopped listening on port 56661
+1684336443703	geckodriver	INFO	Listening on 127.0.0.1:56753
+1684336444288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileDVfyYo"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336444842	Marionette	INFO	Marionette enabled
+1684336444848	Marionette	INFO	Listening on port 56761
+WebDriver BiDi listening on ws://localhost:56754
+Read port: 56761
+1684336445060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileDVfyYo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56754/devtools/browser/95cbdfe2-cc81-4135-a34a-f56d9b54a59a
+1684336454965	Marionette	INFO	Stopped listening on port 56761
+1684336459907	geckodriver	INFO	Listening on 127.0.0.1:56839
+1684336460481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56840" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileW9Hza8"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336461030	Marionette	INFO	Marionette enabled
+1684336461035	Marionette	INFO	Listening on port 56847
+WebDriver BiDi listening on ws://localhost:56840
+Read port: 56847
+1684336461255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileW9Hza8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56840/devtools/browser/18d0d213-8c19-4677-b2a7-fff2d3cc3bff
+1684336471163	Marionette	INFO	Stopped listening on port 56847
+1684336476106	geckodriver	INFO	Listening on 127.0.0.1:56935
+1684336476667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilefstBld"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336477229	Marionette	INFO	Marionette enabled
+1684336477239	Marionette	INFO	Listening on port 56943
+WebDriver BiDi listening on ws://localhost:56936
+Read port: 56943
+1684336477455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilefstBld\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56936/devtools/browser/8b6586be-1d37-4f2b-ad5f-9fc886fa0068
+1684336487545	Marionette	INFO	Stopped listening on port 56943
+1684336492470	geckodriver	INFO	Listening on 127.0.0.1:57020
+1684336493054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile65Nkl9"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336493603	Marionette	INFO	Marionette enabled
+1684336493608	Marionette	INFO	Listening on port 57028
+WebDriver BiDi listening on ws://localhost:57021
+Read port: 57028
+1684336493821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile65Nkl9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57021/devtools/browser/92fd80cc-f888-4359-9751-6a17cdc75109
+1684336503590	Marionette	INFO	Stopped listening on port 57028
+1684336508538	geckodriver	INFO	Listening on 127.0.0.1:57106
+1684336509089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileIvXwll"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336509661	Marionette	INFO	Marionette enabled
+1684336509668	Marionette	INFO	Listening on port 57114
+Read port: 57114
+WebDriver BiDi listening on ws://localhost:57107
+1684336509886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileIvXwll\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57107/devtools/browser/196bef90-73d4-42e9-8ddd-331fd71fec65
+1684336519590	Marionette	INFO	Stopped listening on port 57114
+1684336524563	geckodriver	INFO	Listening on 127.0.0.1:57189
+1684336525155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57190" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileIApDEA"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336525702	Marionette	INFO	Marionette enabled
+1684336525708	Marionette	INFO	Listening on port 57197
+WebDriver BiDi listening on ws://localhost:57190
+Read port: 57197
+1684336525973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileIApDEA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57190/devtools/browser/1d94bcb9-dcda-4fb3-871e-807f01a72a7b
+1684336535408	Marionette	INFO	Stopped listening on port 57197
+1684336540347	geckodriver	INFO	Listening on 127.0.0.1:57284
+1684336540909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileVqf1hs"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336541503	Marionette	INFO	Marionette enabled
+1684336541510	Marionette	INFO	Listening on port 57292
+WebDriver BiDi listening on ws://localhost:57285
+Read port: 57292
+1684336541717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileVqf1hs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57285/devtools/browser/950fcf0e-a94d-408b-94e7-7fa51dd9a6a0
+1684336551676	Marionette	INFO	Stopped listening on port 57292
+1684336556588	geckodriver	INFO	Listening on 127.0.0.1:57377
+1684336557172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile5rvPvh"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336557744	Marionette	INFO	Marionette enabled
+1684336557751	Marionette	INFO	Listening on port 57385
+WebDriver BiDi listening on ws://localhost:57378
+Read port: 57385
+1684336557970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile5rvPvh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57378/devtools/browser/7afcd4d0-fe5e-42a5-8c16-67a8b38d8d87
+1684336567511	Marionette	INFO	Stopped listening on port 57385
+[Parent 13704, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1684336572450	geckodriver	INFO	Listening on 127.0.0.1:57477
+1684336573028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57478" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile8DvEXP"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336573639	Marionette	INFO	Marionette enabled
+1684336573645	Marionette	INFO	Listening on port 57485
+WebDriver BiDi listening on ws://localhost:57478
+Read port: 57485
+1684336573855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile8DvEXP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57478/devtools/browser/a5d4db2e-71eb-4af7-b6d5-e9652661d021
+1684336583378	Marionette	INFO	Stopped listening on port 57485
+1684336588329	geckodriver	INFO	Listening on 127.0.0.1:57563
+1684336588893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57564" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileaxOZHv"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336589468	Marionette	INFO	Marionette enabled
+1684336589473	Marionette	INFO	Listening on port 57571
+WebDriver BiDi listening on ws://localhost:57564
+Read port: 57571
+1684336589695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileaxOZHv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57564/devtools/browser/576c45f1-ed6e-44ba-893a-2c61f3e51839
+1684336599044	Marionette	INFO	Stopped listening on port 57571
+1684336604097	geckodriver	INFO	Listening on 127.0.0.1:57660
+1684336604654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilefajbMi"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336605200	Marionette	INFO	Marionette enabled
+1684336605206	Marionette	INFO	Listening on port 57668
+WebDriver BiDi listening on ws://localhost:57661
+Read port: 57668
+1684336605415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilefajbMi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57661/devtools/browser/b08e45eb-18d6-42ec-8dfc-5edcbc6278bf
+1684336615440	Marionette	INFO	Stopped listening on port 57668
+1684336620421	geckodriver	INFO	Listening on 127.0.0.1:57741
+1684336620979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57742" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilemNAvZ1"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336621534	Marionette	INFO	Marionette enabled
+1684336621540	Marionette	INFO	Listening on port 57749
+WebDriver BiDi listening on ws://localhost:57742
+Read port: 57749
+1684336621753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilemNAvZ1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57742/devtools/browser/9b94451b-8227-4e66-a059-3811ba36a537
+1684336631163	Marionette	INFO	Stopped listening on port 57749
+1684336636134	geckodriver	INFO	Listening on 127.0.0.1:57837
+1684336636704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57838" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileRnojoS"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336637263	Marionette	INFO	Marionette enabled
+1684336637269	Marionette	INFO	Listening on port 57845
+WebDriver BiDi listening on ws://localhost:57838
+Read port: 57845
+1684336637488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileRnojoS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57838/devtools/browser/e674eda0-afdc-489a-9985-93f212271b30
+1684336646932	Marionette	INFO	Stopped listening on port 57845
+1684336651880	geckodriver	INFO	Listening on 127.0.0.1:57914
+1684336652454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilertu2zc"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336653016	Marionette	INFO	Marionette enabled
+1684336653021	Marionette	INFO	Listening on port 57922
+WebDriver BiDi listening on ws://localhost:57915
+Read port: 57922
+1684336653233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilertu2zc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57915/devtools/browser/25910e35-7c5e-4f6b-90ba-5d2242d1b567
+1684336662780	Marionette	INFO	Stopped listening on port 57922
+[Parent 18232, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1684336667712	geckodriver	INFO	Listening on 127.0.0.1:58011
+1684336668290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58012" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilefYFNO0"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336668951	Marionette	INFO	Marionette enabled
+1684336668957	Marionette	INFO	Listening on port 58019
+WebDriver BiDi listening on ws://localhost:58012
+Read port: 58019
+1684336669179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilefYFNO0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58012/devtools/browser/b82158cd-5b75-4c8b-a940-41dfeb306499
+1684336679020	Marionette	INFO	Stopped listening on port 58019
+1684336683942	geckodriver	INFO	Listening on 127.0.0.1:58096
+1684336684491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilempgmEJ"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336685076	Marionette	INFO	Marionette enabled
+1684336685082	Marionette	INFO	Listening on port 58104
+WebDriver BiDi listening on ws://localhost:58097
+Read port: 58104
+1684336685293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilempgmEJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58097/devtools/browser/e6e63e86-05ab-4178-aa75-b7de99baad80
+1684336694387	Marionette	INFO	Stopped listening on port 58104
+1684336699377	geckodriver	INFO	Listening on 127.0.0.1:58189
+1684336699962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58190" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileuo25JM"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336700506	Marionette	INFO	Marionette enabled
+1684336700513	Marionette	INFO	Listening on port 58197
+WebDriver BiDi listening on ws://localhost:58190
+Read port: 58197
+1684336700730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileuo25JM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58190/devtools/browser/d82d0f77-2202-447f-90e7-6714a48abcdd
+1684336709929	Marionette	INFO	Stopped listening on port 58197
+[Parent 18956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1684336714857	geckodriver	INFO	Listening on 127.0.0.1:58273
+1684336715430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileXxAVqo"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336715988	Marionette	INFO	Marionette enabled
+1684336715993	Marionette	INFO	Listening on port 58281
+WebDriver BiDi listening on ws://localhost:58274
+Read port: 58281
+1684336716216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileXxAVqo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58274/devtools/browser/590d3614-bdbb-4696-83c7-2e416e1483aa
+1684336725834	Marionette	INFO	Stopped listening on port 58281
+1684336730790	geckodriver	INFO	Listening on 127.0.0.1:58369
+1684336731371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58370" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilerEOszS"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336731923	Marionette	INFO	Marionette enabled
+1684336731929	Marionette	INFO	Listening on port 58377
+WebDriver BiDi listening on ws://localhost:58370
+Read port: 58377
+1684336732144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilerEOszS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58370/devtools/browser/b1589d84-2c7e-42dd-b609-273b0aaac46e
+1684336741526	Marionette	INFO	Stopped listening on port 58377
+1684336746502	geckodriver	INFO	Listening on 127.0.0.1:58452
+1684336747047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilexUeWki"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336747596	Marionette	INFO	Marionette enabled
+1684336747604	Marionette	INFO	Listening on port 58460
+WebDriver BiDi listening on ws://localhost:58453
+Read port: 58460
+1684336747823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilexUeWki\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58453/devtools/browser/504ff69d-2f0e-42c6-af48-d5d0d0bf7e1e
+1684336757163	Marionette	INFO	Stopped listening on port 58460
+1684336762116	geckodriver	INFO	Listening on 127.0.0.1:58544
+1684336762690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilerqUUqH"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336763225	Marionette	INFO	Marionette enabled
+1684336763231	Marionette	INFO	Listening on port 58552
+WebDriver BiDi listening on ws://localhost:58545
+Read port: 58552
+1684336763443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilerqUUqH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58545/devtools/browser/c20134fb-b7ee-421b-a41b-c100ab3ede25
+1684336773019	Marionette	INFO	Stopped listening on port 58552
+[Parent 8032, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1684336777993	geckodriver	INFO	Listening on 127.0.0.1:58629
+1684336778553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58630" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilemTVmVF"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336779164	Marionette	INFO	Marionette enabled
+1684336779169	Marionette	INFO	Listening on port 58637
+WebDriver BiDi listening on ws://localhost:58630
+Read port: 58637
+1684336779425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilemTVmVF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58630/devtools/browser/fb947a3f-f0b6-4661-97a5-bd33db0dae5c
+1684336788864	Marionette	INFO	Stopped listening on port 58637
+1684336793795	geckodriver	INFO	Listening on 127.0.0.1:58732
+1684336794367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58733" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileufb8f8"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336794925	Marionette	INFO	Marionette enabled
+1684336794931	Marionette	INFO	Listening on port 58740
+WebDriver BiDi listening on ws://localhost:58733
+Read port: 58740
+1684336795143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileufb8f8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58733/devtools/browser/62fe0666-1152-4422-80bc-43637c9b8fe8
+1684336804902	Marionette	INFO	Stopped listening on port 58740
+1684336809870	geckodriver	INFO	Listening on 127.0.0.1:58818
+1684336810422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile6WDMbn"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336810976	Marionette	INFO	Marionette enabled
+1684336810982	Marionette	INFO	Listening on port 58826
+WebDriver BiDi listening on ws://localhost:58819
+Read port: 58826
+1684336811204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile6WDMbn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58819/devtools/browser/86f698cd-21bb-497e-8338-eededb874e18
+1684336820504	Marionette	INFO	Stopped listening on port 58826
+1684336825500	geckodriver	INFO	Listening on 127.0.0.1:58916
+1684336826039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofiledioWV9"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336826590	Marionette	INFO	Marionette enabled
+1684336826596	Marionette	INFO	Listening on port 58924
+WebDriver BiDi listening on ws://localhost:58917
+Read port: 58924
+1684336826812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofiledioWV9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58917/devtools/browser/9ea197d6-03db-489a-9d6e-e43dd438a90a
+1684336836492	Marionette	INFO	Stopped listening on port 58924
+1684336841437	geckodriver	INFO	Listening on 127.0.0.1:58999
+1684336842006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59000" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilebvDFI1"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336842548	Marionette	INFO	Marionette enabled
+1684336842553	Marionette	INFO	Listening on port 59007
+WebDriver BiDi listening on ws://localhost:59000
+Read port: 59007
+1684336842766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilebvDFI1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59000/devtools/browser/fd13859f-bd31-4bff-9a44-699f4e991092
+1684336852117	Marionette	INFO	Stopped listening on port 59007
+1684336857056	geckodriver	INFO	Listening on 127.0.0.1:59098
+1684336857616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileFCUIPv"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336858172	Marionette	INFO	Marionette enabled
+1684336858177	Marionette	INFO	Listening on port 59106
+WebDriver BiDi listening on ws://localhost:59099
+Read port: 59106
+1684336858390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileFCUIPv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59099/devtools/browser/90827948-ec88-4a28-9794-36476b8b922d
+1684336868163	Marionette	INFO	Stopped listening on port 59106
+1684336873177	geckodriver	INFO	Listening on 127.0.0.1:59184
+1684336873734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileJYaWjl"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336874295	Marionette	INFO	Marionette enabled
+1684336874301	Marionette	INFO	Listening on port 59192
+WebDriver BiDi listening on ws://localhost:59185
+Read port: 59192
+1684336874509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileJYaWjl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59185/devtools/browser/9422f4c5-0cb5-4bbc-a6fc-a26a5f7c238c
+1684336883776	Marionette	INFO	Stopped listening on port 59192
+1684336888690	geckodriver	INFO	Listening on 127.0.0.1:59284
+1684336889255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile8qMOGo"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336889802	Marionette	INFO	Marionette enabled
+1684336889808	Marionette	INFO	Listening on port 59292
+WebDriver BiDi listening on ws://localhost:59285
+Read port: 59292
+1684336890025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile8qMOGo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59285/devtools/browser/097db33e-54c1-44ad-92ac-eb9af91c9994
+1684336900061	Marionette	INFO	Stopped listening on port 59292
+1684336904981	geckodriver	INFO	Listening on 127.0.0.1:59370
+1684336905559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile9y947m"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336906113	Marionette	INFO	Marionette enabled
+1684336906119	Marionette	INFO	Listening on port 59378
+WebDriver BiDi listening on ws://localhost:59371
+Read port: 59378
+1684336906339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile9y947m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59371/devtools/browser/ba36e82d-a7aa-40c6-93e1-a2ed77da863c
+1684336916060	Marionette	INFO	Stopped listening on port 59378
+1684336921014	geckodriver	INFO	Listening on 127.0.0.1:59463
+1684336921584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59464" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilefqUoq6"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336922153	Marionette	INFO	Marionette enabled
+1684336922159	Marionette	INFO	Listening on port 59471
+WebDriver BiDi listening on ws://localhost:59464
+Read port: 59471
+1684336922400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilefqUoq6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59464/devtools/browser/bb0b3d23-1f61-4ffd-8c0f-5781ccc5e164
+1684336931891	Marionette	INFO	Stopped listening on port 59471
+1684336936834	geckodriver	INFO	Listening on 127.0.0.1:59546
+1684336937397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileHLBdVE"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336937953	Marionette	INFO	Marionette enabled
+1684336937959	Marionette	INFO	Listening on port 59554
+WebDriver BiDi listening on ws://localhost:59547
+Read port: 59554
+1684336938183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileHLBdVE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59547/devtools/browser/a0f8fcd6-167d-48a0-83be-078ff97c4291
+1684336947528	Marionette	INFO	Stopped listening on port 59554
+1684336952527	geckodriver	INFO	Listening on 127.0.0.1:59629
+1684336953092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59630" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileLA6cUT"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336953698	Marionette	INFO	Marionette enabled
+1684336953704	Marionette	INFO	Listening on port 59637
+WebDriver BiDi listening on ws://localhost:59630
+Read port: 59637
+1684336953915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileLA6cUT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59630/devtools/browser/5bcd1494-4c00-459f-9236-14fc278e92d8
+1684336963599	Marionette	INFO	Stopped listening on port 59637
+1684336968615	geckodriver	INFO	Listening on 127.0.0.1:59711
+1684336969160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59712" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileOvo8Ix"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336969696	Marionette	INFO	Marionette enabled
+1684336969702	Marionette	INFO	Listening on port 59719
+WebDriver BiDi listening on ws://localhost:59712
+Read port: 59719
+1684336969925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileOvo8Ix\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59712/devtools/browser/4d3d73ab-dd1c-48e4-a434-434bd3b79c6a
+1684336979753	Marionette	INFO	Stopped listening on port 59719
+1684336984709	geckodriver	INFO	Listening on 127.0.0.1:59808
+1684336985304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileRv2SRf"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684336985866	Marionette	INFO	Marionette enabled
+1684336985872	Marionette	INFO	Listening on port 59816
+WebDriver BiDi listening on ws://localhost:59809
+Read port: 59816
+1684336986091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileRv2SRf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59809/devtools/browser/b2cfdbe2-950e-4234-b028-c1eb26405768
+1684336996286	Marionette	INFO	Stopped listening on port 59816
+1684337001246	geckodriver	INFO	Listening on 127.0.0.1:59892
+1684337001839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilea17bDd"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337002380	Marionette	INFO	Marionette enabled
+1684337002386	Marionette	INFO	Listening on port 59900
+WebDriver BiDi listening on ws://localhost:59893
+Read port: 59900
+1684337002604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilea17bDd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59893/devtools/browser/316b66ba-624e-451f-82c4-65f9b9ee7acc
+1684337011908	Marionette	INFO	Stopped listening on port 59900
+1684337016816	geckodriver	INFO	Listening on 127.0.0.1:59987
+1684337017388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileJvm3Zs"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337017947	Marionette	INFO	Marionette enabled
+1684337017955	Marionette	INFO	Listening on port 59995
+WebDriver BiDi listening on ws://localhost:59988
+Read port: 59995
+1684337018169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileJvm3Zs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59988/devtools/browser/8d2efdce-ca08-4d5c-89f6-ffc852a49292
+1684337027876	Marionette	INFO	Stopped listening on port 59995
+1684337032914	geckodriver	INFO	Listening on 127.0.0.1:60071
+1684337033456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60072" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilehUWMjJ"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337034040	Marionette	INFO	Marionette enabled
+1684337034046	Marionette	INFO	Listening on port 60079
+WebDriver BiDi listening on ws://localhost:60072
+Read port: 60079
+1684337034266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilehUWMjJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60072/devtools/browser/65c07a8c-3f45-4558-8b42-c4b91f576ed1
+1684337043535	Marionette	INFO	Stopped listening on port 60079
+1684337048477	geckodriver	INFO	Listening on 127.0.0.1:60162
+1684337048989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileJAShpd"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337049494	Marionette	INFO	Marionette enabled
+1684337049500	Marionette	INFO	Listening on port 60170
+WebDriver BiDi listening on ws://localhost:60163
+Read port: 60170
+1684337049714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileJAShpd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60163/devtools/browser/bb3490df-0a84-4768-97ec-2e716ab4c20b
+1684337059230	Marionette	INFO	Stopped listening on port 60170
+1684337064107	geckodriver	INFO	Listening on 127.0.0.1:60247
+1684337064619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60248" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilelMT4Ap"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337065134	Marionette	INFO	Marionette enabled
+1684337065142	Marionette	INFO	Listening on port 60255
+WebDriver BiDi listening on ws://localhost:60248
+Read port: 60255
+1684337065394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilelMT4Ap\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60248/devtools/browser/baa1a610-04a4-412a-a24b-cd7c7f113209
+1684337074884	Marionette	INFO	Stopped listening on port 60255
+1684337079831	geckodriver	INFO	Listening on 127.0.0.1:60347
+1684337080364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileiQka3b"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337080868	Marionette	INFO	Marionette enabled
+1684337080874	Marionette	INFO	Listening on port 60355
+WebDriver BiDi listening on ws://localhost:60348
+Read port: 60355
+1684337081093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileiQka3b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60348/devtools/browser/ac0c6195-8806-4586-a913-ce5261eb599a
+1684337090679	Marionette	INFO	Stopped listening on port 60355
+1684337095589	geckodriver	INFO	Listening on 127.0.0.1:60430
+1684337096091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile8VfkZv"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337096600	Marionette	INFO	Marionette enabled
+1684337096606	Marionette	INFO	Listening on port 60438
+WebDriver BiDi listening on ws://localhost:60431
+Read port: 60438
+1684337096816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile8VfkZv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60431/devtools/browser/5b356575-c798-4101-8c28-3c4e5b5c4309
+1684337106000	Marionette	INFO	Stopped listening on port 60438
+1684337110832	geckodriver	INFO	Listening on 127.0.0.1:60524
+1684337111367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileNHuv04"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337111896	Marionette	INFO	Marionette enabled
+1684337111902	Marionette	INFO	Listening on port 60532
+WebDriver BiDi listening on ws://localhost:60525
+Read port: 60532
+1684337112107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileNHuv04\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60525/devtools/browser/9db33bf8-8970-4035-9f92-21b3ebf6d4b9
+1684337121810	Marionette	INFO	Stopped listening on port 60532
+[Parent 10132, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+[Parent 10132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1684337126693	geckodriver	INFO	Listening on 127.0.0.1:60607
+1684337127198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60608" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile3FqN0H"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337127702	Marionette	INFO	Marionette enabled
+1684337127709	Marionette	INFO	Listening on port 60615
+WebDriver BiDi listening on ws://localhost:60608
+Read port: 60615
+1684337127913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile3FqN0H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60608/devtools/browser/aa41fdb2-b8b7-4918-b204-de8cf0a66d7d
+1684337137188	Marionette	INFO	Stopped listening on port 60615
+1684337142120	geckodriver	INFO	Listening on 127.0.0.1:60702
+1684337142640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60703" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileRjOG7u"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337143159	Marionette	INFO	Marionette enabled
+1684337143165	Marionette	INFO	Listening on port 60710
+WebDriver BiDi listening on ws://localhost:60703
+Read port: 60710
+1684337143375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileRjOG7u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60703/devtools/browser/7701f0bf-a10f-47fe-a369-98910d8e4af5
+1684337152787	Marionette	INFO	Stopped listening on port 60710
+1684337157672	geckodriver	INFO	Listening on 127.0.0.1:60787
+1684337158178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60788" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileCjwsLy"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337158759	Marionette	INFO	Marionette enabled
+1684337158765	Marionette	INFO	Listening on port 60795
+WebDriver BiDi listening on ws://localhost:60788
+Read port: 60795
+1684337158973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileCjwsLy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60788/devtools/browser/1d3372d5-3cbc-4cb2-8b68-24d5aac2f1b8
+1684337168584	Marionette	INFO	Stopped listening on port 60795
+1684337173443	geckodriver	INFO	Listening on 127.0.0.1:60885
+1684337173965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60886" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileMZN6nX"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337174483	Marionette	INFO	Marionette enabled
+1684337174489	Marionette	INFO	Listening on port 60893
+WebDriver BiDi listening on ws://localhost:60886
+Read port: 60893
+1684337174702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileMZN6nX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60886/devtools/browser/19ae8c80-5518-4487-859e-bdecd012865a
+1684337184935	Marionette	INFO	Stopped listening on port 60893
+1684337189942	geckodriver	INFO	Listening on 127.0.0.1:60972
+1684337190444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileNEX5Sj"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337190945	Marionette	INFO	Marionette enabled
+1684337190953	Marionette	INFO	Listening on port 60980
+WebDriver BiDi listening on ws://localhost:60973
+Read port: 60980
+1684337191160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileNEX5Sj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60973/devtools/browser/d0823690-42af-49c5-bb76-587977285f06
+1684337200430	Marionette	INFO	Stopped listening on port 60980
+1684337205230	geckodriver	INFO	Listening on 127.0.0.1:61072
+1684337205746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile6n8bo8"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337206259	Marionette	INFO	Marionette enabled
+1684337206265	Marionette	INFO	Listening on port 61080
+WebDriver BiDi listening on ws://localhost:61073
+Read port: 61080
+1684337206480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile6n8bo8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61073/devtools/browser/ea92920b-1b94-4deb-813e-1b0e610b4d17
+1684337216097	Marionette	INFO	Stopped listening on port 61080
+1684337220997	geckodriver	INFO	Listening on 127.0.0.1:61157
+1684337221515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61158" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileQ60BLc"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684337222023	Marionette	INFO	Marionette enabled
+1684337222029	Marionette	INFO	Listening on port 61165
+WebDriver BiDi listening on ws://localhost:61158
+Read port: 61165
+1684337222243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileQ60BLc\\search.json.mozlz4", (void 0)))
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2178: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+DevTools listening on ws://localhost:61158/devtools/browser/a8cceb27-b9f0-4198-99ee-b2256f74bf1b
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1684743751294	geckodriver	INFO	Listening on 127.0.0.1:63427
+1684743751840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63428" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilec9BWhx"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684743752664	Marionette	INFO	Marionette enabled
+1684743752671	Marionette	INFO	Listening on port 63435
+WebDriver BiDi listening on ws://localhost:63428
+Read port: 63435
+1684743752962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilec9BWhx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63428/devtools/browser/0e74be8d-94c1-4fb5-b618-2d5854c0f7c3
+1684743763527	Marionette	INFO	Stopped listening on port 63435
+1684743772870	geckodriver	INFO	Listening on 127.0.0.1:63512
+1684743773402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilenHJOrC"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684743773996	Marionette	INFO	Marionette enabled
+1684743774004	Marionette	INFO	Listening on port 63520
+WebDriver BiDi listening on ws://localhost:63513
+Read port: 63520
+1684743774314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilenHJOrC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63513/devtools/browser/1fa51b39-e6dc-4ed5-baa4-47dbc2c668ff
+1684743784697	Marionette	INFO	Stopped listening on port 63520
+1684744851454	geckodriver	INFO	Listening on 127.0.0.1:51996
+1684744852033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileZra1Ea"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684744852568	Marionette	INFO	Marionette enabled
+1684744852574	Marionette	INFO	Listening on port 52004
+WebDriver BiDi listening on ws://localhost:51997
+Read port: 52004
+1684744852805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileZra1Ea\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51997/devtools/browser/4efda5e7-cd7b-40d3-801d-0f592edc767e
+1684744863086	Marionette	INFO	Stopped listening on port 52004
+1684744868057	geckodriver	INFO	Listening on 127.0.0.1:52072
+1684744868649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileuYU4W6"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684744869246	Marionette	INFO	Marionette enabled
+1684744869251	Marionette	INFO	Listening on port 52080
+WebDriver BiDi listening on ws://localhost:52073
+Read port: 52080
+1684744869470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileuYU4W6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52073/devtools/browser/cb7fea46-d0e1-478f-98ff-1e91813cc857
+1684744876541	Marionette	INFO	Stopped listening on port 52080
+1684745603868	geckodriver	INFO	Listening on 127.0.0.1:62295
+1684745604463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62296" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile15oIbw"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684745604999	Marionette	INFO	Marionette enabled
+1684745605005	Marionette	INFO	Listening on port 62303
+WebDriver BiDi listening on ws://localhost:62296
+Read port: 62303
+1684745605262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile15oIbw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62296/devtools/browser/c6bd4561-739d-443d-adfa-ea9404a06978
+1684745616008	Marionette	INFO	Stopped listening on port 62303
+1684745671126	geckodriver	INFO	Listening on 127.0.0.1:57714
+1684745671707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileFjWkSq"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684745672248	Marionette	INFO	Marionette enabled
+1684745672255	Marionette	INFO	Listening on port 57722
+WebDriver BiDi listening on ws://localhost:57715
+Read port: 57722
+1684745672483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileFjWkSq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57715/devtools/browser/076045af-75bf-46a4-ad3a-ad0d4c59e0fc
+1684745683083	Marionette	INFO	Stopped listening on port 57722
+1684746214722	geckodriver	INFO	Listening on 127.0.0.1:59642
+1684746215307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileRn2kzw"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746215834	Marionette	INFO	Marionette enabled
+1684746215842	Marionette	INFO	Listening on port 59650
+WebDriver BiDi listening on ws://localhost:59643
+Read port: 59650
+1684746216115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileRn2kzw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59643/devtools/browser/08f2c7dc-994e-488e-8bb7-d7c705c41322
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1684746240508	Marionette	INFO	Stopped listening on port 59650
+1684746254281	geckodriver	INFO	Listening on 127.0.0.1:59719
+1684746254835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59720" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileK8pBCn"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746255383	Marionette	INFO	Marionette enabled
+1684746255389	Marionette	INFO	Listening on port 59727
+WebDriver BiDi listening on ws://localhost:59720
+Read port: 59727
+1684746255670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileK8pBCn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59720/devtools/browser/acfb690b-2355-4531-a05a-48db01d3293c
+1684746266222	Marionette	INFO	Stopped listening on port 59727
+1684746283378	geckodriver	INFO	Listening on 127.0.0.1:59803
+1684746283945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59804" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileG4aYp2"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746284463	Marionette	INFO	Marionette enabled
+1684746284472	Marionette	INFO	Listening on port 59811
+WebDriver BiDi listening on ws://localhost:59804
+Read port: 59811
+1684746284738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileG4aYp2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59804/devtools/browser/5e5285f5-01d4-4e36-9e19-b8169e7381fc
+1684746294805	Marionette	INFO	Stopped listening on port 59811
+1684746299617	geckodriver	INFO	Listening on 127.0.0.1:59897
+1684746300166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59898" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileSVRIp9"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746300687	Marionette	INFO	Marionette enabled
+1684746300693	Marionette	INFO	Listening on port 59905
+WebDriver BiDi listening on ws://localhost:59898
+Read port: 59905
+1684746300916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileSVRIp9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59898/devtools/browser/5d773948-e0e7-411d-82e9-3cd1d137768a
+1684746311604	Marionette	INFO	Stopped listening on port 59905
+1684746349837	geckodriver	INFO	Listening on 127.0.0.1:60001
+1684746350413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilemwWN4M"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746350927	Marionette	INFO	Marionette enabled
+1684746350932	Marionette	INFO	Listening on port 60009
+WebDriver BiDi listening on ws://localhost:60002
+Read port: 60009
+1684746351221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1684746358702	geckodriver	INFO	Listening on 127.0.0.1:60020
+1684746359254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilemfodTa"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:4: prefs parse error: unknown keyword
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:5: prefs parse error: unknown keyword
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "aviation-civile.gouv.fr" - not a valid origin.
+console.error: Policies.jsm: 
+  Invalid ExtensionSettings
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-INTERM-LFBO-BLAGNAC.crt
+console.error: Policies.jsm: 
+  Unable to find certificate - CA-LFBO-BLAGNAC.crt
+1684746359803	Marionette	INFO	Marionette enabled
+1684746359808	Marionette	INFO	Listening on port 60028
+WebDriver BiDi listening on ws://localhost:60021
+Read port: 60028
+1684746360041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilemfodTa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60021/devtools/browser/f219ddf8-6c39-4765-92ac-ec3264f00b22
+1684746370013	Marionette	INFO	Stopped listening on port 60028
