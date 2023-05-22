@@ -89,6 +89,7 @@ def menu(xml_dico):
         
 def  traitement_runway (xml_dico):
     print("------------ Tracé des zones Runways ------------")
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
     runway_list = xml_dico['dataset']['runway_main']['runway']
     if isinstance(runway_list, dict):  # Vérifie si c'est un dictionnaire
         runway_list = [runway_list]  # Convertit en une liste avec un seul élément
@@ -98,11 +99,12 @@ def  traitement_runway (xml_dico):
             lat = float(pos['lat'])
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
-        generation_image (coodinates, runway['name'] + '.png')
+        generation_image (coodinates, version + "-" + runway['name'] + '.png')
     return 0 
 
 def traitement_tma (xml_dico):
     print("------------ Tracé des zones TMA ------------")
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
     tma_list = xml_dico['dataset']['tma_main']['tma']
     if isinstance(tma_list, dict):  # Vérifie si c'est un dictionnaire
         tma_list = [tma_list]  # Convertit en une liste avec un seul élément
@@ -112,11 +114,12 @@ def traitement_tma (xml_dico):
             lat = float(pos['lat'])
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
-        generation_image (coodinates, tma['name'] + '.png')
+        generation_image (coodinates, version + "-" + tma['name'] + '.png')
     return 0
 
 def traitement_era (xml_dico):
     print("------------ Tracé des zones ERA ------------")
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
     enrta_list = xml_dico['dataset']['enrta_main']['enrta']
     if isinstance(enrta_list, dict):  # Vérifie si c'est un dictionnaire
         enrta_list = [enrta_list]  # Convertit en une liste avec un seul élément
@@ -126,11 +129,12 @@ def traitement_era (xml_dico):
             lat = float(pos['lat'])
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
-        generation_image (coodinates, enrta['name'] + '.png')
+        generation_image (coodinates, version + "-" + enrta['name'] + '.png')
     return 0 
 
 def traitement_icca (xml_dico):
     print("------------ Tracé des zones ICCA ------------")
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
     icca_list = xml_dico['dataset']['icca_main']['icca']
     if isinstance(icca_list, dict):  # Vérifie si c'est un dictionnaire
         icca_list = [icca_list]  # Convertit en une liste avec un seul élément
@@ -140,10 +144,11 @@ def traitement_icca (xml_dico):
             lat = float(pos['lat'])
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
-        generation_image (coodinates, icca['name'] + '.png')
+        generation_image (coodinates, version + "-" + icca['name'] + '.png')
 
 def traitement_doi(xml_dico):
     print("----------- Tracé de la zone DOI UNIT ------------")
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
     coodinates =[]
     for doi in xml_dico['dataset']['unit_doi_main']['unit_doi']:
         dir = 1 if "doi_long_e" in doi else -1
@@ -151,7 +156,7 @@ def traitement_doi(xml_dico):
         lon = dms_to_deg(float(doi['doi_long_deg']),float(doi['doi_long_min']),float(doi['doi_long_sec']),dir)
         coodinates.append((lat, lon))
     print (coodinates)
-    generation_image (coodinates, "unit_doi.png")
+    generation_image (coodinates, version + "-" + "unit_doi.png")
 
 
 def  traitement_all (xml_dico):
