@@ -65,8 +65,9 @@ def menu(xml_dico):
           "- 2 => TMA\n"
           "- 3 => ERA\n"
           "- 4 => ICCA\n"
-          "- 5 => UNIT DOI\n"
-          "- 6 => All\n")
+          "- 5 => GMA\n"
+          "- 6 => UNIT DOI\n"
+          "- 7 => All\n")
         try :
             zone = int(input("Veuillez choisir le numero de la zone a tracer ou quittez (0):\n"))
         except:
@@ -83,8 +84,10 @@ def menu(xml_dico):
         case 4:
             traitement_icca (xml_dico)
         case 5:
-            traitement_doi (xml_dico)
+            traitement_gma (xml_dico)
         case 6:
+            traitement_doi (xml_dico)
+        case 7:
             traitement_all (xml_dico)
         
 def  traitement_runway (xml_dico):
@@ -179,6 +182,29 @@ def traitement_icca (xml_dico):
         generation_image (coodinates, version + "-" + icca['name'] + '.png')
     return 0 
 
+def traitement_gma (xml_dico):
+    print("------------ Tracé des zones GMA ------------")
+    
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
+    
+    try :
+        gma_list = xml_dico['dataset']['gma_main']['gma']
+    except:
+        print("Pas de zones definies pour GMA dans le dataset fourni !")
+        return -1
+        
+    if isinstance(gma_list, dict):  # Vérifie si c'est un dictionnaire
+        gma_list = [gma_list]  # Convertit en une liste avec un seul élément
+        
+    for gma in gma_list:
+        coodinates =[]
+        for pos in gma['area']['pos']:
+            lat = float(pos['lat'])
+            lon = float(pos['lon'])
+            coodinates.append((lat, lon))
+        generation_image (coodinates, version + "-" + gma['name'] + '.png')
+    return 0 
+
 def traitement_doi(xml_dico):
     print("----------- Tracé de la zone DOI UNIT ------------")
     
@@ -207,6 +233,7 @@ def  traitement_all (xml_dico):
     traitement_tma (xml_dico)
     traitement_era (xml_dico)
     traitement_icca (xml_dico)
+    traitement_gma (xml_dico)
     traitement_doi(xml_dico)
     
     return 0
@@ -220,10 +247,10 @@ def dms_to_deg(degrees, minutes, seconds,dir):
         return -dd
 
 def main():
-    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.0.2) à traiter (default = 4F_E0702.xml) :\n")
+    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.1.0) à traiter (default = 4F_E1000.xml) :\n")
     
     if dataset.strip() == "" :
-        dataset = "4F_E0702.xml"
+        dataset = "4F_E1000.xml"
     
     try:    
         with open(dataset, 'r') as file:
