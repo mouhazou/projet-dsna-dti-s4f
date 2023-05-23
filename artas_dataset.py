@@ -58,7 +58,7 @@ def generation_image(polygon_coords , nom):
     driver.quit()
 def menu(xml_dico):
     zone = -1
-    while zone < 0 or zone > 5:
+    while zone < 0 or zone > 6:
         print(
           "- 0 => Quitter\n"
           "- 1 => Runway\n"
@@ -149,15 +149,16 @@ def traitement_icca (xml_dico):
 def traitement_doi(xml_dico):
     print("----------- Tracé de la zone DOI UNIT ------------")
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    coodinates =[]
-    for doi in xml_dico['dataset']['unit_doi_main']['unit_doi']:
-        dir = 1 if "doi_long_e" in doi else -1
-        lat = dms_to_deg(float(doi['doi_lat_deg']),float(doi['doi_lat_min']),float(doi['doi_lat_sec']),float(doi['doi_lat_n']))
-        lon = dms_to_deg(float(doi['doi_long_deg']),float(doi['doi_long_min']),float(doi['doi_long_sec']),dir)
-        coodinates.append((lat, lon))
-    print (coodinates)
-    generation_image (coodinates, version + "-" + "unit_doi.png")
-
+    doi_list = xml_dico['dataset']['unit_main']['unit']
+    if isinstance(doi_list, dict):  # Vérifie si c'est un dictionnaire
+        doi_list = [doi_list]  # Convertit en une liste avec un seul élément
+    for doi in doi_list:
+        coodinates =[]
+        for pos in doi['doi']['area']['pos']:
+            lat = float(pos['lat'])
+            lon = float(pos['lon'])
+            coodinates.append((lat, lon))
+        generation_image (coodinates, version + "-" + doi['name'] + '.png')
 
 def  traitement_all (xml_dico):
     print("----------- Tracé de toutes les zones de la dataset fournie ------------")
@@ -176,10 +177,10 @@ def dms_to_deg(degrees, minutes, seconds,dir):
         return -dd
 
 def main():
-    dataset = input("Veuillez saisir le nom ou le chemin de la dataset.xml à traiter (defaut = 4F_E0209) :\n")
+    dataset = input("Veuillez saisir le nom ou le chemin de la dataset.xml à traiter (defaut = 4F_E0702.xml) :\n")
     
     if dataset.strip() == "" :
-        dataset = "4F_E0209.xml"
+        dataset = "4F_E0702.xml"
     
     try:    
         with open(dataset, 'r') as file:
