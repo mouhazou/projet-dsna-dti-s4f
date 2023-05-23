@@ -89,10 +89,18 @@ def menu(xml_dico):
         
 def  traitement_runway (xml_dico):
     print("------------ Tracé des zones Runways ------------")
+    
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    runway_list = xml_dico['dataset']['runway_main']['runway']
+    
+    try :
+        runway_list = xml_dico['dataset']['runway_main']['runway']
+    except:
+        print("Pas de zones definies pour Runway dans le dataset fourni !")
+        return -1
+    
     if isinstance(runway_list, dict):  # Vérifie si c'est un dictionnaire
         runway_list = [runway_list]  # Convertit en une liste avec un seul élément
+        
     for runway in runway_list:
         coodinates =[]
         for pos in runway['points']['pos']:
@@ -104,10 +112,18 @@ def  traitement_runway (xml_dico):
 
 def traitement_tma (xml_dico):
     print("------------ Tracé des zones TMA ------------")
+    
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    tma_list = xml_dico['dataset']['tma_main']['tma']
+    
+    try :
+        tma_list = xml_dico['dataset']['tma_main']['tma']
+    except:
+        print("Pas de zones definies pour TMA dans le dataset fourni !")
+        return -1
+        
     if isinstance(tma_list, dict):  # Vérifie si c'est un dictionnaire
         tma_list = [tma_list]  # Convertit en une liste avec un seul élément
+        
     for tma in tma_list:
         coodinates =[]
         for pos in tma['area']['pos']:
@@ -119,10 +135,18 @@ def traitement_tma (xml_dico):
 
 def traitement_era (xml_dico):
     print("------------ Tracé des zones ERA ------------")
+    
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    enrta_list = xml_dico['dataset']['enrta_main']['enrta']
+    
+    try :
+        enrta_list = xml_dico['dataset']['enrta_main']['enrta']
+    except:
+        print("Pas de zones definies pour ERA dans le dataset fourni !")
+        return -1
+        
     if isinstance(enrta_list, dict):  # Vérifie si c'est un dictionnaire
         enrta_list = [enrta_list]  # Convertit en une liste avec un seul élément
+        
     for enrta in enrta_list:
         coodinates =[]
         for pos in enrta['area']['pos']:
@@ -134,10 +158,18 @@ def traitement_era (xml_dico):
 
 def traitement_icca (xml_dico):
     print("------------ Tracé des zones ICCA ------------")
+    
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    icca_list = xml_dico['dataset']['icca_main']['icca']
+    
+    try :
+        icca_list = xml_dico['dataset']['icca_main']['icca']
+    except:
+        print("Pas de zones definies pour ICCA dans le dataset fourni !")
+        return -1
+        
     if isinstance(icca_list, dict):  # Vérifie si c'est un dictionnaire
         icca_list = [icca_list]  # Convertit en une liste avec un seul élément
+        
     for icca in icca_list:
         coodinates =[]
         for pos in icca['area']['pos']:
@@ -145,11 +177,19 @@ def traitement_icca (xml_dico):
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
         generation_image (coodinates, version + "-" + icca['name'] + '.png')
+    return 0 
 
 def traitement_doi(xml_dico):
     print("----------- Tracé de la zone DOI UNIT ------------")
+    
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
-    doi_list = xml_dico['dataset']['unit_main']['unit']
+    
+    try :
+        doi_list = xml_dico['dataset']['unit_main']['unit']
+    except:
+        print("Pas de zones definies pour DOI UNIT dans le dataset fourni !")
+        return -1
+        
     if isinstance(doi_list, dict):  # Vérifie si c'est un dictionnaire
         doi_list = [doi_list]  # Convertit en une liste avec un seul élément
     for doi in doi_list:
@@ -159,13 +199,16 @@ def traitement_doi(xml_dico):
             lon = float(pos['lon'])
             coodinates.append((lat, lon))
         generation_image (coodinates, version + "-" + doi['name'] + '.png')
+    return 0 
 
 def  traitement_all (xml_dico):
-    print("----------- Tracé de toutes les zones de la dataset fournie ------------")
+    print("----------- Tracé de toutes les zones de le dataset fourni ------------")
     traitement_runway (xml_dico)
     traitement_tma (xml_dico)
     traitement_era (xml_dico)
     traitement_icca (xml_dico)
+    traitement_doi(xml_dico)
+    
     return 0
 
 def dms_to_deg(degrees, minutes, seconds,dir):
@@ -177,10 +220,10 @@ def dms_to_deg(degrees, minutes, seconds,dir):
         return -dd
 
 def main():
-    dataset = input("Veuillez saisir le nom ou le chemin de la dataset.xml à traiter (defaut = 4F_E0702.xml) :\n")
+    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.1.0) à traiter (defaut = 4F_E1000.xml) :\n")
     
     if dataset.strip() == "" :
-        dataset = "4F_E0702.xml"
+        dataset = "4F_E1000.xml"
     
     try:    
         with open(dataset, 'r') as file:
