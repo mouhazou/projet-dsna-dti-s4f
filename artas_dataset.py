@@ -220,10 +220,10 @@ def dms_to_deg(degrees, minutes, seconds,dir):
         return -dd
 
 def main():
-    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.1.0) à traiter (defaut = 4F_E1000.xml) :\n")
+    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.0.2) à traiter (default = 4F_E0702.xml) :\n")
     
     if dataset.strip() == "" :
-        dataset = "4F_E1000.xml"
+        dataset = "4F_E0702.xml"
     
     try:    
         with open(dataset, 'r') as file:
