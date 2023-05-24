@@ -5,7 +5,18 @@ import shutil
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
+from enum import Enum
+import glob
 
+class Type(Enum):
+    QUIT = 0
+    RUNWAY = 1
+    TMA = 2
+    ERA = 3
+    ICCA = 4
+    GMA = 5
+    DOI = 6
+    ALL = 7
 
 def generation_image(polygon_coords , nom):
     #Génère une image PNG à partir d'une liste de coordonnées
@@ -56,9 +67,11 @@ def generation_image(polygon_coords , nom):
     screenshot = driver.save_screenshot(nom)
     # Close the browser and quit the webdriver
     driver.quit()
+
+
 def menu(xml_dico):
     zone = -1
-    while zone < 0 or zone > 6:
+    while zone < 0 or zone > 7:
         print(
           "- 0 => Quitter\n"
           "- 1 => Runway\n"
@@ -69,28 +82,28 @@ def menu(xml_dico):
           "- 6 => UNIT DOI\n"
           "- 7 => All\n")
         try :
-            zone = int(input("Veuillez choisir le numero de la zone a tracer ou quittez (0):\n"))
+            zone = int(input("Veuillez choisir le numero de la zone à tracer ou quittez (0):\n"))
         except:
             print("Erreur : Veuillez saisir un chiffre compris entre 0 et 5 correspondant a la zone SVP")
     match zone:
-        case 0:
+        case Type.QUIT.value:
              exit ()
-        case 1:
+        case Type.RUNWAY.value:
             traitement_runway (xml_dico)
-        case 2:
+        case Type.TMA.value:
             traitement_tma (xml_dico)
-        case 3:
+        case Type.ERA.value:
             traitement_era (xml_dico)
-        case 4:
+        case Type.ICCA.value:
             traitement_icca (xml_dico)
-        case 5:
+        case Type.GMA.value:
             traitement_gma (xml_dico)
-        case 6:
+        case Type.DOI.value:
             traitement_doi (xml_dico)
-        case 7:
+        case Type.ALL.value:
             traitement_all (xml_dico)
         
-def  traitement_runway (xml_dico):
+def  traitement_runway (xml_dico,answer=0):
     print("------------ Tracé des zones Runways ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -104,16 +117,34 @@ def  traitement_runway (xml_dico):
     if isinstance(runway_list, dict):  # Vérifie si c'est un dictionnaire
         runway_list = [runway_list]  # Convertit en une liste avec un seul élément
         
-    for runway in runway_list:
-        coodinates =[]
-        for pos in runway['points']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + runway['name'] + '.png')
+    zones_name = [dico["name"] for dico in runway_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in runway_list:
+            coodinates = getCoord(runway_list,zone["name"],Type.RUNWAY)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(runway_list,answer,Type.RUNWAY)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0 
 
-def traitement_tma (xml_dico):
+def traitement_tma (xml_dico,answer=0):
     print("------------ Tracé des zones TMA ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -127,16 +158,34 @@ def traitement_tma (xml_dico):
     if isinstance(tma_list, dict):  # Vérifie si c'est un dictionnaire
         tma_list = [tma_list]  # Convertit en une liste avec un seul élément
         
-    for tma in tma_list:
-        coodinates =[]
-        for pos in tma['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + tma['name'] + '.png')
+    zones_name = [dico["name"] for dico in tma_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in tma_list:
+            coodinates = getCoord(tma_list,zone["name"],Type.TMA)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(tma_list,answer,Type.TMA)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0
 
-def traitement_era (xml_dico):
+def traitement_era (xml_dico,answer=0):
     print("------------ Tracé des zones ERA ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -150,16 +199,34 @@ def traitement_era (xml_dico):
     if isinstance(enrta_list, dict):  # Vérifie si c'est un dictionnaire
         enrta_list = [enrta_list]  # Convertit en une liste avec un seul élément
         
-    for enrta in enrta_list:
-        coodinates =[]
-        for pos in enrta['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + enrta['name'] + '.png')
+    zones_name = [dico["name"] for dico in enrta_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in enrta_list:
+            coodinates = getCoord(enrta_list,zone["name"],Type.ERA)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(enrta_list,answer,Type.ERA)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0 
 
-def traitement_icca (xml_dico):
+def traitement_icca (xml_dico,answer=0):
     print("------------ Tracé des zones ICCA ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -173,16 +240,34 @@ def traitement_icca (xml_dico):
     if isinstance(icca_list, dict):  # Vérifie si c'est un dictionnaire
         icca_list = [icca_list]  # Convertit en une liste avec un seul élément
         
-    for icca in icca_list:
-        coodinates =[]
-        for pos in icca['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + icca['name'] + '.png')
+    zones_name = [dico["name"] for dico in icca_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in icca_list:
+            coodinates = getCoord(icca_list,zone["name"],Type.ICCA)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(icca_list,answer,Type.ICCA)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0 
 
-def traitement_gma (xml_dico):
+def traitement_gma (xml_dico,answer=0):
     print("------------ Tracé des zones GMA ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -196,16 +281,34 @@ def traitement_gma (xml_dico):
     if isinstance(gma_list, dict):  # Vérifie si c'est un dictionnaire
         gma_list = [gma_list]  # Convertit en une liste avec un seul élément
         
-    for gma in gma_list:
-        coodinates =[]
-        for pos in gma['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + gma['name'] + '.png')
+    zones_name = [dico["name"] for dico in gma_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in gma_list:
+            coodinates = getCoord(gma_list,zone["name"],Type.GMA)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(gma_list,answer,Type.GMA)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0 
 
-def traitement_doi(xml_dico):
+def traitement_doi(xml_dico,answer=0):
     print("----------- Tracé de la zone DOI UNIT ------------")
     
     version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
@@ -218,23 +321,43 @@ def traitement_doi(xml_dico):
         
     if isinstance(doi_list, dict):  # Vérifie si c'est un dictionnaire
         doi_list = [doi_list]  # Convertit en une liste avec un seul élément
-    for doi in doi_list:
-        coodinates =[]
-        for pos in doi['doi']['area']['pos']:
-            lat = float(pos['lat'])
-            lon = float(pos['lon'])
-            coodinates.append((lat, lon))
-        generation_image (coodinates, version + "-" + doi['name'] + '.png')
+    
+    zones_name = [dico["name"] for dico in doi_list]
+    
+    if answer != "" :
+        print('\n'.join(zones_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in zones_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for zone in doi_list:
+            coodinates = getCoord(doi_list,zone["name"],Type.DOI)
+            generation_image (coodinates, version + "-" + zone["name"] + '.png')
+    else:
+        coodinates =getCoord(doi_list,answer,Type.DOI)
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
     return 0 
 
 def  traitement_all (xml_dico):
-    print("----------- Tracé de toutes les zones de le dataset fourni ------------")
-    traitement_runway (xml_dico)
-    traitement_tma (xml_dico)
-    traitement_era (xml_dico)
-    traitement_icca (xml_dico)
-    traitement_gma (xml_dico)
-    traitement_doi(xml_dico)
+    print("----------- Tracé de toutes les zones du dataset fourni ------------")
+    traitement_doi(xml_dico,"")
+    traitement_tma (xml_dico,"")
+    traitement_era (xml_dico,"")
+    traitement_icca (xml_dico,"")
+    traitement_gma (xml_dico,"")
+    traitement_runway (xml_dico,"")
+    
     
     return 0
 
@@ -246,8 +369,32 @@ def dms_to_deg(degrees, minutes, seconds,dir):
     else:
         return -dd
 
+def getCoord(zones_list, zone, type):
+    
+    zone_filtree = filter(lambda dico: dico["name"] == zone, zones_list) # on recupere les données de la zone renseignée dans la variable "zone"
+    zone_filtree = list(zone_filtree)[0]
+    if type == Type.RUNWAY :
+        coord = zone_filtree['points']['pos']
+    elif type == Type.DOI:
+        coord = zone_filtree['doi']['area']['pos']
+    else:
+        coord = zone_filtree['area']['pos']
+        
+    coodinates =[]
+    for pos in coord:
+        lat = float(pos['lat'])
+        lon = float(pos['lon'])
+        coodinates.append((lat, lon))
+    return coodinates
+    
 def main():
-    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.1.0) à traiter (default = 4F_E1000.xml) :\n")
+    
+    xml_file = glob.glob("*.xml") # Recuperation de tous les fichiers ayant extension ".xml" dans le rep courant
+    print("\n".join(xml_file))
+    dataset = input("Veuillez saisir le nom ou le chemin du dataset.xml (version V9.1.0) à traiter (default = 4F_E1000.xml) ou quitter (q):\n")
+    
+    if dataset == "q":
+        exit()
     
     if dataset.strip() == "" :
         dataset = "4F_E1000.xml"
