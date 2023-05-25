@@ -423,7 +423,7 @@ def traitement_user(xml_dico,answer=0):
     else:
         coodinates =getCoord(user_list,answer,Type.USER)
         if coodinates == -1:
-                print("Pas de zone DOI definie pour user" + user["name"] + "dans le dataset fourni !")
+                print("Pas de zone DOI definie pour user " + answer + " dans le dataset fourni !")
                 return 0
         generation_image (coodinates, version + "-" + answer + '.png')
         traitement_user(xml_dico,answer=0)
@@ -465,7 +465,6 @@ def traitement_service(xml_dico,answer=0):
     
     elif answer == "all":
         for user in serice_list:
-            print(user["name"])
             coodinates = getCoord(serice_list,user["name"],Type.SERVICE)
             if coodinates == -1:
                 print("Pas de zone DOI definie pour user " + user["name"] + " dans le dataset fourni !")
@@ -474,7 +473,7 @@ def traitement_service(xml_dico,answer=0):
     else:
         coodinates =getCoord(serice_list,answer,Type.SERVICE)
         if coodinates == -1:
-                print("Pas de zone DOI definie pour user" + user["name"] + "dans le dataset fourni !")
+                print("Pas de zone DOI definie pour user " + answer + " dans le dataset fourni !")
                 return 0
         generation_image (coodinates, version + "-" + answer + '.png')
         traitement_service(xml_dico,answer=0)
