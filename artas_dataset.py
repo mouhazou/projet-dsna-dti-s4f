@@ -62,12 +62,20 @@ def generation_image(polygon_coords , nom, waitTime=5):
     driver.get('file://' + os.getcwd() + '/temp_map_copy.html')
     # Maximize the browser window
     driver.maximize_window()
-    # Wait for 10 seconds to ensure the map is fully loaded
-    time.sleep(waitTime)
     
-
+    # Creation du nom de repertoire où enregistrer la capture d'ecran
+    nom_repertoire = "images"
+    if not os.path.exists(nom_repertoire):
+        os.mkdir(nom_repertoire)
+        
+    chemin_image = os.path.join(nom_repertoire, nom)
     # Take a screenshot of the map and save it with a specified name
-    screenshot = driver.save_screenshot(nom)
+    
+    # Wait for 10 seconds to ensure the map is fully loaded
+    print("Capture d'ecran en cours")
+    print("Elle sera sauvegardée dans le repertoire " + "'" + nom_repertoire + "'")
+    time.sleep(waitTime)
+    screenshot = driver.save_screenshot(chemin_image)
     # Close the browser and quit the webdriver
     driver.quit()
 
@@ -424,6 +432,9 @@ def traitement_user(xml_dico,answer=0):
         coodinates =getCoord(user_list,answer,Type.USER)
         if coodinates == -1:
                 print("Pas de zone DOI definie pour user " + answer + " dans le dataset fourni !")
+                print("Retour au menu precidant ...")
+                time.sleep(5)
+                traitement_user(xml_dico,answer=0)
                 return 0
         generation_image (coodinates, version + "-" + answer + '.png')
         traitement_user(xml_dico,answer=0)
@@ -474,6 +485,9 @@ def traitement_service(xml_dico,answer=0):
         coodinates =getCoord(serice_list,answer,Type.SERVICE)
         if coodinates == -1:
                 print("Pas de zone DOI definie pour user " + answer + " dans le dataset fourni !")
+                print("Retour au menu precidant ...")
+                time.sleep(5)
+                traitement_service(xml_dico,answer=0)
                 return 0
         generation_image (coodinates, version + "-" + answer + '.png')
         traitement_service(xml_dico,answer=0)
@@ -515,9 +529,10 @@ def getCoord(zones_list, zone, type):
             return -1
     
     elif type == Type.SERVICE:
-        coord = zone_filtree['user_services']['service_connection']['service_volume']['area']['pos'] 
-        #coord2 = coord['area']['pos']  
-        a=2;
+        if "area" in zone_filtree['user_services']['service_connection']['service_volume']:
+            coord = zone_filtree['user_services']['service_connection']['service_volume']['area']['pos'] 
+        else:
+            return -1  
     else:
         coord = zone_filtree['area']['pos']
         
