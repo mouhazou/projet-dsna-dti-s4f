@@ -61,7 +61,7 @@ def generation_image(polygon_coords , nom):
     driver.get('file://' + os.getcwd() + '/temp_map_copy.html')
     # Maximize the browser window
     driver.maximize_window()
-    # Wait for 5 seconds to ensure the map is fully loaded
+    # Wait for 10 seconds to ensure the map is fully loaded
     time.sleep(10)
     
 
