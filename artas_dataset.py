@@ -15,8 +15,10 @@ class Type(Enum):
     ERA = 3
     ICCA = 4
     GMA = 5
-    DOI = 6
-    ALL = 7
+    UNIT = 6
+    USER = 7
+    SERVICE = 8
+    ALL = 9
 
 def generation_image(polygon_coords , nom):
     #Génère une image PNG à partir d'une liste de coordonnées
@@ -60,7 +62,7 @@ def generation_image(polygon_coords , nom):
     # Maximize the browser window
     driver.maximize_window()
     # Wait for 5 seconds to ensure the map is fully loaded
-    time.sleep(5)
+    time.sleep(10)
     
 
     # Take a screenshot of the map and save it with a specified name
@@ -71,7 +73,7 @@ def generation_image(polygon_coords , nom):
 
 def menu(xml_dico):
     zone = -1
-    while zone < 0 or zone > 7:
+    while zone < 0 or zone > 9:
         print(
           "- 0 => Quitter\n"
           "- 1 => Runway\n"
@@ -80,11 +82,13 @@ def menu(xml_dico):
           "- 4 => ICCA\n"
           "- 5 => GMA\n"
           "- 6 => UNIT DOI\n"
-          "- 7 => All\n")
+          "- 7 => USER DOI\n"
+          "- 8 => USER SERVICES DOI\n"
+          "- 9 => ALL\n")
         try :
             zone = int(input("Veuillez choisir le numero de la zone à tracer ou quittez (0):\n"))
         except:
-            print("Erreur : Veuillez saisir un chiffre compris entre 0 et 5 correspondant a la zone SVP")
+            print("Erreur : Veuillez saisir un chiffre compris entre 0 et 8 correspondant a la zone SVP")
     match zone:
         case Type.QUIT.value:
              exit ()
@@ -98,8 +102,12 @@ def menu(xml_dico):
             traitement_icca (xml_dico)
         case Type.GMA.value:
             traitement_gma (xml_dico)
-        case Type.DOI.value:
+        case Type.UNIT.value:
             traitement_doi (xml_dico)
+        case Type.USER.value:
+            traitement_user (xml_dico)
+        case Type.SERVICE.value:
+            traitement_service (xml_dico)
         case Type.ALL.value:
             traitement_all (xml_dico)
         
@@ -341,16 +349,17 @@ def traitement_doi(xml_dico,answer=0):
     
     elif answer == "all":
         for zone in doi_list:
-            coodinates = getCoord(doi_list,zone["name"],Type.DOI)
+            coodinates = getCoord(doi_list,zone["name"],Type.UNIT)
             generation_image (coodinates, version + "-" + zone["name"] + '.png')
     else:
-        coodinates =getCoord(doi_list,answer,Type.DOI)
+        coodinates =getCoord(doi_list,answer,Type.UNIT)
         generation_image (coodinates, version + "-" + answer + '.png')
         
     return 0 
 
 def  traitement_all (xml_dico):
     print("----------- Tracé de toutes les zones du dataset fourni ------------")
+    traitement_user(xml_dico,"")
     traitement_doi(xml_dico,"")
     traitement_tma (xml_dico,"")
     traitement_era (xml_dico,"")
@@ -361,6 +370,102 @@ def  traitement_all (xml_dico):
     
     return 0
 
+def traitement_user(xml_dico,answer=0):
+    print("----------- Tracé de la zone DOI USER ------------")
+    
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
+    
+    try :
+        user_list = xml_dico['dataset']['broadcast_user_main']['broadcast_user']
+    except:
+        print("Pas de zones definies pour DOI USER dans le dataset fourni !")
+        return -1
+        
+    if isinstance(user_list, dict):  # Vérifie si c'est un dictionnaire
+        user_list = [user_list]  # Convertit en une liste avec un seul élément
+    
+    user_name = [dico["name"] for dico in user_list]
+    
+    if answer != "" :
+        print('\n'.join(user_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in user_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for user in user_list:
+            print(user["name"])
+            coodinates = getCoord(user_list,user["name"],Type.USER)
+            if coodinates == -1:
+                print("Pas de zone DOI definie pour user " + user["name"] + " dans le dataset fourni !")
+                continue
+            generation_image (coodinates, version + "-" + user["name"] + '.png')
+    else:
+        coodinates =getCoord(user_list,answer,Type.USER)
+        if coodinates == -1:
+                print("Pas de zone DOI definie pour user" + user["name"] + "dans le dataset fourni !")
+                return 0
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
+    return 0 
+
+def traitement_service(xml_dico,answer=0):
+    print("----------- Tracé de la zone DOI USER SERVICE ------------")
+    
+    version = xml_dico['dataset']['mutex_main']['mutex']['version_tag']
+    
+    try :
+        serice_list = xml_dico['dataset']['broadcast_user_main']['broadcast_user']
+    except:
+        print("Pas de zones definies pour DOI USER dans le dataset fourni !")
+        return -1
+        
+    if isinstance(serice_list, dict):  # Vérifie si c'est un dictionnaire
+        serice_list = [serice_list]  # Convertit en une liste avec un seul élément
+    
+    user_name = [dico["name"] for dico in serice_list]
+    
+    if answer != "" :
+        print('\n'.join(user_name))
+        print("all =>  Tracer tous")
+        print("q =>  Quitter")
+        answer = input("Veuillez choisir la zone à tracer ou taper q pour quitter (default = all):\n")
+    
+    if answer == "" : answer = "all"
+    
+    while answer != "q" and answer != "all" and answer not in user_name :
+        print("Votre saisie est incorrecte !!!\n")
+        answer = input("Veuillez choisir la zone à tracer dans la liste ci-dessus ou taper q pour quitter:\n")
+    
+    if answer == "q":
+        return 0
+    
+    elif answer == "all":
+        for user in serice_list:
+            print(user["name"])
+            coodinates = getCoord(serice_list,user["name"],Type.SERVICE)
+            if coodinates == -1:
+                print("Pas de zone DOI definie pour user " + user["name"] + " dans le dataset fourni !")
+                continue
+            generation_image (coodinates, version + "-" + user["name"] + '.png')
+    else:
+        coodinates =getCoord(serice_list,answer,Type.SERVICE)
+        if coodinates == -1:
+                print("Pas de zone DOI definie pour user" + user["name"] + "dans le dataset fourni !")
+                return 0
+        generation_image (coodinates, version + "-" + answer + '.png')
+        
+    return 0 
+ 
 def dms_to_deg(degrees, minutes, seconds,dir):
     # Calcul du degré décimal
     dd = degrees + (minutes / 60) + (seconds / 3600)
@@ -375,8 +480,16 @@ def getCoord(zones_list, zone, type):
     zone_filtree = list(zone_filtree)[0]
     if type == Type.RUNWAY :
         coord = zone_filtree['points']['pos']
-    elif type == Type.DOI:
-        coord = zone_filtree['doi']['area']['pos']
+    elif type == Type.UNIT or type == Type.USER:
+        if "area" in zone_filtree['doi']:
+            coord = zone_filtree['doi']['area']['pos']
+        else:
+            return -1
+    
+    elif type == Type.SERVICE:
+        coord = zone_filtree['user_services']['service_connection']['service_volume']['area']['pos'] 
+        #coord2 = coord['area']['pos']  
+        a=2;
     else:
         coord = zone_filtree['area']['pos']
         

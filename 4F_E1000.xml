@@ -295,7 +295,7 @@
   </multi_sensor_area_directory_main>
   <mutex_main>
     <mutex>
-      <update_date>2023-05-04 07:15:59+00:00</update_date>
+      <update_date>2023-05-24 09:19:46+00:00</update_date>
       <value>0</value>
       <version>9.1.0.0.14</version>
       <version_tag>E1000</version_tag>
@@ -13072,9 +13072,27 @@
       <doi>
         <default_lower_level>true</default_lower_level>
         <default_upper_level>true</default_upper_level>
-        <default_area>true</default_area>
+        <default_area>false</default_area>
         <lower_level>0</lower_level>
         <upper_level>0</upper_level>
+        <area>
+          <pos>
+            <lat>43.6044</lat>
+            <lon>1.4442</lon>
+          </pos>
+          <pos>
+            <lat>51.5074</lat>
+            <lon>-0.1278</lon>
+          </pos>
+          <pos>
+            <lat>40.7128</lat>
+            <lon>-74.006</lon>
+          </pos>
+          <pos>
+            <lat>48.8566</lat>
+            <lon>2.3522</lon>
+          </pos>
+        </area>
       </doi>
       <user_services>
         <service_connection>
@@ -13201,38 +13219,34 @@
               <lower_level>-1100</lower_level>
               <upper_level>66000</upper_level>
             </service_volume>
-            <code_families/>
-            <departures/>
-            <destinations/>
-            <aircraft_types/>
             <categories>
-              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
               <category>TRACKS_FROM_MODE_S_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
               <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-              <category>GENERAL_AIR_TRAFFIC</category>
-              <category>OPERATIONAL_AIR_TRAFFIC</category>
-              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
               <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>LIVE_TRACKS</category>
-              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
               <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_WITH_SPI</category>
-              <category>TRACKS_WITH_ME</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+              <category>LIVE_TRACKS</category>
+              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+              <category>GENERAL_AIR_TRAFFIC</category>
+              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+              <category>OPERATIONAL_AIR_TRAFFIC</category>
               <category>TRACKS_IN_AIR</category>
+              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_ME</category>
               <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
               <category>CONFIRMED_TRACKS</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_SPI</category>
             </categories>
             <updates>
               <service_update>
@@ -13285,58 +13299,58 @@
           </track_selectors>
           <item_selectors>
             <cat62>
-              <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>SERVICE_IDENTIFICATION</item>
-              <item>TIME_OF_TRACK_INFORMATION</item>
-              <item>CALCULATED_TRACK_POSITION_WGS84</item>
-              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
-              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
-              <item>TRACK_MODE_3A_CODE</item>
-              <item>TRACK_NUMBER</item>
-              <item>TRACK_STATUS</item>
-              <item>MODE_OF_MOVEMENT</item>
-              <item>MEASURED_FLIGHT_LEVEL</item>
-              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
-              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
-              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
-              <item>MEASURED_INFORMATION</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
               <item>FLIGHT_PLAN_RELATED_DATA_DST</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
               <item>SYSTEM_TRACK_UPDATE_AGES_PSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TIME_OF_TRACK_INFORMATION</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
               <item>TRACK_DATA_AGES_MFL</item>
-              <item>TRACK_DATA_AGES_MD1</item>
-              <item>TRACK_DATA_AGES_MD2</item>
-              <item>TRACK_DATA_AGES_MDA</item>
-              <item>TRACK_DATA_AGES_MD4</item>
-              <item>TRACK_DATA_AGES_MD5</item>
-              <item>TRACK_DATA_AGES_MHG</item>
-              <item>TRACK_DATA_AGES_FSS</item>
-              <item>TRACK_DATA_AGES_IAR</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
+              <item>MODE_OF_MOVEMENT</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
               <item>TRACK_DATA_AGES_MAC</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TRACK_NUMBER</item>
+              <item>DATA_SOURCE_IDENTIFIER</item>
+              <item>CALCULATED_TRACK_POSITION_WGS84</item>
+              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
+              <item>MEASURED_FLIGHT_LEVEL</item>
+              <item>MEASURED_INFORMATION</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
+              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
+              <item>TRACK_DATA_AGES_FSS</item>
+              <item>TRACK_DATA_AGES_MDA</item>
+              <item>SERVICE_IDENTIFICATION</item>
+              <item>TRACK_DATA_AGES_IAR</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
+              <item>TRACK_DATA_AGES_MHG</item>
+              <item>TRACK_DATA_AGES_MD4</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
+              <item>TRACK_DATA_AGES_MD1</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
+              <item>TRACK_DATA_AGES_MD2</item>
+              <item>TRACK_DATA_AGES_MD5</item>
+              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
+              <item>TRACK_MODE_3A_CODE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
+              <item>TRACK_STATUS</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
+              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
+              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
             </cat62>
           </item_selectors>
           <transmission_data>
@@ -13347,7 +13361,7 @@
               <batch_periods_per_update_period>20</batch_periods_per_update_period>
               <batches_per_scan>20</batches_per_scan>
               <max_data_flow>127</max_data_flow>
-              <extra_delay>0</extra_delay>
+              <extra_delay>0.0</extra_delay>
             </periodical>
           </transmission_data>
         </background_service>
@@ -13380,38 +13394,34 @@
                   </pos>
                 </area>
               </service_volume>
-              <code_families/>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>GENERAL_AIR_TRAFFIC</category>
-                <category>OPERATIONAL_AIR_TRAFFIC</category>
-                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
                 <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>LIVE_TRACKS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_WITH_SPI</category>
-                <category>TRACKS_WITH_ME</category>
-                <category>TRACKS_IN_AIR</category>
-                <category>TRACKS_ON_SFC</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+                <category>LIVE_TRACKS</category>
                 <category>TENTATIVE_TRACKS</category>
+                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+                <category>GENERAL_AIR_TRAFFIC</category>
+                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+                <category>OPERATIONAL_AIR_TRAFFIC</category>
+                <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_ME</category>
+                <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_SPI</category>
               </categories>
               <updates>
                 <service_update>
@@ -13465,9 +13475,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -13488,29 +13496,26 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
-                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
               </categories>
               <updates>
                 <service_update>
@@ -13564,9 +13569,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -13587,26 +13590,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -13660,9 +13660,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -13683,26 +13681,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -13756,9 +13751,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -13779,26 +13772,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -13852,9 +13842,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
         </complementary_services>
         <sdps_service>
@@ -13876,15 +13864,15 @@
           <item_selectors>
             <cat63>
               <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>TIME_OF_MESSAGE</item>
-              <item>SENSOR_IDENTIFIER</item>
-              <item>SENSOR_CONFIG_STATUS</item>
-              <item>TIME_STAMPING_BIAS</item>
-              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
-              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
-              <item>PSR_RANGE_GAIN_AND_BIAS</item>
               <item>PSR_AZIMUTH_BIAS</item>
               <item>PSR_ELEVATION_BIAS</item>
+              <item>PSR_RANGE_GAIN_AND_BIAS</item>
+              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
+              <item>SENSOR_CONFIG_STATUS</item>
+              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
+              <item>TIME_STAMPING_BIAS</item>
+              <item>TIME_OF_MESSAGE</item>
+              <item>SENSOR_IDENTIFIER</item>
             </cat63>
           </item_selectors>
           <transmission_data>
@@ -13912,9 +13900,27 @@
       <doi>
         <default_lower_level>true</default_lower_level>
         <default_upper_level>true</default_upper_level>
-        <default_area>true</default_area>
+        <default_area>false</default_area>
         <lower_level>0</lower_level>
         <upper_level>0</upper_level>
+        <area>
+          <pos>
+            <lat>37.7749</lat>
+            <lon>-122.4194</lon>
+          </pos>
+          <pos>
+            <lat>55.758</lat>
+            <lon>37.6145</lon>
+          </pos>
+          <pos>
+            <lat>35.6895</lat>
+            <lon>139.6917</lon>
+          </pos>
+          <pos>
+            <lat>33.8679</lat>
+            <lon>151.2093</lon>
+          </pos>
+        </area>
       </doi>
       <user_services>
         <service_connection>
@@ -14041,38 +14047,34 @@
               <lower_level>0</lower_level>
               <upper_level>0</upper_level>
             </service_volume>
-            <code_families/>
-            <departures/>
-            <destinations/>
-            <aircraft_types/>
             <categories>
-              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
               <category>TRACKS_FROM_MODE_S_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
               <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-              <category>GENERAL_AIR_TRAFFIC</category>
-              <category>OPERATIONAL_AIR_TRAFFIC</category>
-              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
               <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>LIVE_TRACKS</category>
-              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
               <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_WITH_SPI</category>
-              <category>TRACKS_WITH_ME</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+              <category>LIVE_TRACKS</category>
+              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+              <category>GENERAL_AIR_TRAFFIC</category>
+              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+              <category>OPERATIONAL_AIR_TRAFFIC</category>
               <category>TRACKS_IN_AIR</category>
+              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_ME</category>
               <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
               <category>CONFIRMED_TRACKS</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_SPI</category>
             </categories>
             <updates>
               <service_update>
@@ -14125,58 +14127,58 @@
           </track_selectors>
           <item_selectors>
             <cat62>
-              <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>SERVICE_IDENTIFICATION</item>
-              <item>TIME_OF_TRACK_INFORMATION</item>
-              <item>CALCULATED_TRACK_POSITION_WGS84</item>
-              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
-              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
-              <item>TRACK_MODE_3A_CODE</item>
-              <item>TRACK_NUMBER</item>
-              <item>TRACK_STATUS</item>
-              <item>MODE_OF_MOVEMENT</item>
-              <item>MEASURED_FLIGHT_LEVEL</item>
-              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
-              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
-              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
-              <item>MEASURED_INFORMATION</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
               <item>FLIGHT_PLAN_RELATED_DATA_DST</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
               <item>SYSTEM_TRACK_UPDATE_AGES_PSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TIME_OF_TRACK_INFORMATION</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
               <item>TRACK_DATA_AGES_MFL</item>
-              <item>TRACK_DATA_AGES_MD1</item>
-              <item>TRACK_DATA_AGES_MD2</item>
-              <item>TRACK_DATA_AGES_MDA</item>
-              <item>TRACK_DATA_AGES_MD4</item>
-              <item>TRACK_DATA_AGES_MD5</item>
-              <item>TRACK_DATA_AGES_MHG</item>
-              <item>TRACK_DATA_AGES_FSS</item>
-              <item>TRACK_DATA_AGES_IAR</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
+              <item>MODE_OF_MOVEMENT</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
               <item>TRACK_DATA_AGES_MAC</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TRACK_NUMBER</item>
+              <item>DATA_SOURCE_IDENTIFIER</item>
+              <item>CALCULATED_TRACK_POSITION_WGS84</item>
+              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
+              <item>MEASURED_FLIGHT_LEVEL</item>
+              <item>MEASURED_INFORMATION</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
+              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
+              <item>TRACK_DATA_AGES_FSS</item>
+              <item>TRACK_DATA_AGES_MDA</item>
+              <item>SERVICE_IDENTIFICATION</item>
+              <item>TRACK_DATA_AGES_IAR</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
+              <item>TRACK_DATA_AGES_MHG</item>
+              <item>TRACK_DATA_AGES_MD4</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
+              <item>TRACK_DATA_AGES_MD1</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
+              <item>TRACK_DATA_AGES_MD2</item>
+              <item>TRACK_DATA_AGES_MD5</item>
+              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
+              <item>TRACK_MODE_3A_CODE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
+              <item>TRACK_STATUS</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
+              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
+              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
             </cat62>
           </item_selectors>
           <transmission_data>
@@ -14187,7 +14189,7 @@
               <batch_periods_per_update_period>20</batch_periods_per_update_period>
               <batches_per_scan>20</batches_per_scan>
               <max_data_flow>127</max_data_flow>
-              <extra_delay>0</extra_delay>
+              <extra_delay>0.0</extra_delay>
             </periodical>
           </transmission_data>
         </background_service>
@@ -14220,38 +14222,34 @@
                   </pos>
                 </area>
               </service_volume>
-              <code_families/>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>GENERAL_AIR_TRAFFIC</category>
-                <category>OPERATIONAL_AIR_TRAFFIC</category>
-                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
                 <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>LIVE_TRACKS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_WITH_SPI</category>
-                <category>TRACKS_WITH_ME</category>
-                <category>TRACKS_IN_AIR</category>
-                <category>TRACKS_ON_SFC</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+                <category>LIVE_TRACKS</category>
                 <category>TENTATIVE_TRACKS</category>
+                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+                <category>GENERAL_AIR_TRAFFIC</category>
+                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+                <category>OPERATIONAL_AIR_TRAFFIC</category>
+                <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_ME</category>
+                <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_SPI</category>
               </categories>
               <updates>
                 <service_update>
@@ -14305,9 +14303,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -14328,29 +14324,26 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
-                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
               </categories>
               <updates>
                 <service_update>
@@ -14404,9 +14397,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -14427,26 +14418,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -14500,9 +14488,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -14523,26 +14509,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -14596,9 +14579,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -14619,26 +14600,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -14692,9 +14670,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
         </complementary_services>
         <sdps_service>
@@ -14711,15 +14687,15 @@
           <item_selectors>
             <cat63>
               <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>TIME_OF_MESSAGE</item>
-              <item>SENSOR_IDENTIFIER</item>
-              <item>SENSOR_CONFIG_STATUS</item>
-              <item>TIME_STAMPING_BIAS</item>
-              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
-              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
-              <item>PSR_RANGE_GAIN_AND_BIAS</item>
               <item>PSR_AZIMUTH_BIAS</item>
               <item>PSR_ELEVATION_BIAS</item>
+              <item>PSR_RANGE_GAIN_AND_BIAS</item>
+              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
+              <item>SENSOR_CONFIG_STATUS</item>
+              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
+              <item>TIME_STAMPING_BIAS</item>
+              <item>TIME_OF_MESSAGE</item>
+              <item>SENSOR_IDENTIFIER</item>
             </cat63>
           </item_selectors>
           <transmission_data>
@@ -14754,9 +14730,27 @@
       <doi>
         <default_lower_level>true</default_lower_level>
         <default_upper_level>true</default_upper_level>
-        <default_area>true</default_area>
+        <default_area>false</default_area>
         <lower_level>0</lower_level>
         <upper_level>0</upper_level>
+        <area>
+          <pos>
+            <lat>52.52</lat>
+            <lon>13.4052</lon>
+          </pos>
+          <pos>
+            <lat>22.9054</lat>
+            <lon>38.9072</lon>
+          </pos>
+          <pos>
+            <lat>38.90721</lat>
+            <lon>37.15</lon>
+          </pos>
+          <pos>
+            <lat>37.985</lat>
+            <lon>0.0</lon>
+          </pos>
+        </area>
       </doi>
       <user_services>
         <service_connection>
@@ -14883,38 +14877,34 @@
               <lower_level>0</lower_level>
               <upper_level>0</upper_level>
             </service_volume>
-            <code_families/>
-            <departures/>
-            <destinations/>
-            <aircraft_types/>
             <categories>
-              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
               <category>TRACKS_FROM_MODE_S_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
               <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-              <category>GENERAL_AIR_TRAFFIC</category>
-              <category>OPERATIONAL_AIR_TRAFFIC</category>
-              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
               <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>LIVE_TRACKS</category>
-              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
               <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_WITH_SPI</category>
-              <category>TRACKS_WITH_ME</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+              <category>LIVE_TRACKS</category>
+              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+              <category>GENERAL_AIR_TRAFFIC</category>
+              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+              <category>OPERATIONAL_AIR_TRAFFIC</category>
               <category>TRACKS_IN_AIR</category>
+              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_ME</category>
               <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
               <category>CONFIRMED_TRACKS</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_SPI</category>
             </categories>
             <updates>
               <service_update>
@@ -14967,58 +14957,58 @@
           </track_selectors>
           <item_selectors>
             <cat62>
-              <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>SERVICE_IDENTIFICATION</item>
-              <item>TIME_OF_TRACK_INFORMATION</item>
-              <item>CALCULATED_TRACK_POSITION_WGS84</item>
-              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
-              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
-              <item>TRACK_MODE_3A_CODE</item>
-              <item>TRACK_NUMBER</item>
-              <item>TRACK_STATUS</item>
-              <item>MODE_OF_MOVEMENT</item>
-              <item>MEASURED_FLIGHT_LEVEL</item>
-              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
-              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
-              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
-              <item>MEASURED_INFORMATION</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
               <item>FLIGHT_PLAN_RELATED_DATA_DST</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
               <item>SYSTEM_TRACK_UPDATE_AGES_PSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TIME_OF_TRACK_INFORMATION</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
               <item>TRACK_DATA_AGES_MFL</item>
-              <item>TRACK_DATA_AGES_MD1</item>
-              <item>TRACK_DATA_AGES_MD2</item>
-              <item>TRACK_DATA_AGES_MDA</item>
-              <item>TRACK_DATA_AGES_MD4</item>
-              <item>TRACK_DATA_AGES_MD5</item>
-              <item>TRACK_DATA_AGES_MHG</item>
-              <item>TRACK_DATA_AGES_FSS</item>
-              <item>TRACK_DATA_AGES_IAR</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
+              <item>MODE_OF_MOVEMENT</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
               <item>TRACK_DATA_AGES_MAC</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TRACK_NUMBER</item>
+              <item>DATA_SOURCE_IDENTIFIER</item>
+              <item>CALCULATED_TRACK_POSITION_WGS84</item>
+              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
+              <item>MEASURED_FLIGHT_LEVEL</item>
+              <item>MEASURED_INFORMATION</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
+              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
+              <item>TRACK_DATA_AGES_FSS</item>
+              <item>TRACK_DATA_AGES_MDA</item>
+              <item>SERVICE_IDENTIFICATION</item>
+              <item>TRACK_DATA_AGES_IAR</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
+              <item>TRACK_DATA_AGES_MHG</item>
+              <item>TRACK_DATA_AGES_MD4</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
+              <item>TRACK_DATA_AGES_MD1</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
+              <item>TRACK_DATA_AGES_MD2</item>
+              <item>TRACK_DATA_AGES_MD5</item>
+              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
+              <item>TRACK_MODE_3A_CODE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
+              <item>TRACK_STATUS</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
+              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
+              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
             </cat62>
           </item_selectors>
           <transmission_data>
@@ -15029,7 +15019,7 @@
               <batch_periods_per_update_period>20</batch_periods_per_update_period>
               <batches_per_scan>20</batches_per_scan>
               <max_data_flow>127</max_data_flow>
-              <extra_delay>0</extra_delay>
+              <extra_delay>0.0</extra_delay>
             </periodical>
           </transmission_data>
         </background_service>
@@ -15062,38 +15052,34 @@
                   </pos>
                 </area>
               </service_volume>
-              <code_families/>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>GENERAL_AIR_TRAFFIC</category>
-                <category>OPERATIONAL_AIR_TRAFFIC</category>
-                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
                 <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>LIVE_TRACKS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_WITH_SPI</category>
-                <category>TRACKS_WITH_ME</category>
-                <category>TRACKS_IN_AIR</category>
-                <category>TRACKS_ON_SFC</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+                <category>LIVE_TRACKS</category>
                 <category>TENTATIVE_TRACKS</category>
+                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+                <category>GENERAL_AIR_TRAFFIC</category>
+                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+                <category>OPERATIONAL_AIR_TRAFFIC</category>
+                <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_ME</category>
+                <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_SPI</category>
               </categories>
               <updates>
                 <service_update>
@@ -15147,9 +15133,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -15170,29 +15154,26 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
-                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
               </categories>
               <updates>
                 <service_update>
@@ -15246,9 +15227,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -15269,26 +15248,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -15342,9 +15318,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -15365,26 +15339,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -15438,9 +15409,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -15461,26 +15430,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -15534,9 +15500,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
         </complementary_services>
         <sdps_service>
@@ -15553,15 +15517,15 @@
           <item_selectors>
             <cat63>
               <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>TIME_OF_MESSAGE</item>
-              <item>SENSOR_IDENTIFIER</item>
-              <item>SENSOR_CONFIG_STATUS</item>
-              <item>TIME_STAMPING_BIAS</item>
-              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
-              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
-              <item>PSR_RANGE_GAIN_AND_BIAS</item>
               <item>PSR_AZIMUTH_BIAS</item>
               <item>PSR_ELEVATION_BIAS</item>
+              <item>PSR_RANGE_GAIN_AND_BIAS</item>
+              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
+              <item>SENSOR_CONFIG_STATUS</item>
+              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
+              <item>TIME_STAMPING_BIAS</item>
+              <item>TIME_OF_MESSAGE</item>
+              <item>SENSOR_IDENTIFIER</item>
             </cat63>
           </item_selectors>
           <transmission_data>
@@ -15596,9 +15560,27 @@
       <doi>
         <default_lower_level>true</default_lower_level>
         <default_upper_level>true</default_upper_level>
-        <default_area>true</default_area>
+        <default_area>false</default_area>
         <lower_level>0</lower_level>
         <upper_level>0</upper_level>
+        <area>
+          <pos>
+            <lat>34.0522</lat>
+            <lon>118.2437</lon>
+          </pos>
+          <pos>
+            <lat>37.817</lat>
+            <lon>144.58</lon>
+          </pos>
+          <pos>
+            <lat>25.54</lat>
+            <lon>114.58</lon>
+          </pos>
+          <pos>
+            <lat>22.369</lat>
+            <lon>116.58</lon>
+          </pos>
+        </area>
       </doi>
       <user_services>
         <service_connection>
@@ -15725,38 +15707,34 @@
               <lower_level>0</lower_level>
               <upper_level>0</upper_level>
             </service_volume>
-            <code_families/>
-            <departures/>
-            <destinations/>
-            <aircraft_types/>
             <categories>
-              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
               <category>TRACKS_FROM_MODE_S_ONLY_PLOTS</category>
-              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
               <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-              <category>GENERAL_AIR_TRAFFIC</category>
-              <category>OPERATIONAL_AIR_TRAFFIC</category>
-              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
               <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-              <category>LIVE_TRACKS</category>
-              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
               <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-              <category>TRACKS_WITH_SPI</category>
-              <category>TRACKS_WITH_ME</category>
+              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+              <category>LIVE_TRACKS</category>
+              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+              <category>GENERAL_AIR_TRAFFIC</category>
+              <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+              <category>OPERATIONAL_AIR_TRAFFIC</category>
               <category>TRACKS_IN_AIR</category>
+              <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+              <category>TRACKS_WITH_VALID_ALTITUDE</category>
+              <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_ME</category>
               <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
               <category>CONFIRMED_TRACKS</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-              <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-              <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+              <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+              <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+              <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+              <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+              <category>TRACKS_WITH_SPI</category>
             </categories>
             <updates>
               <service_update>
@@ -15809,58 +15787,58 @@
           </track_selectors>
           <item_selectors>
             <cat62>
-              <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>SERVICE_IDENTIFICATION</item>
-              <item>TIME_OF_TRACK_INFORMATION</item>
-              <item>CALCULATED_TRACK_POSITION_WGS84</item>
-              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
-              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
-              <item>TRACK_MODE_3A_CODE</item>
-              <item>TRACK_NUMBER</item>
-              <item>TRACK_STATUS</item>
-              <item>MODE_OF_MOVEMENT</item>
-              <item>MEASURED_FLIGHT_LEVEL</item>
-              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
-              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
-              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
-              <item>MEASURED_INFORMATION</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
-              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
               <item>FLIGHT_PLAN_RELATED_DATA_DST</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
-              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
-              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
               <item>SYSTEM_TRACK_UPDATE_AGES_PSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
-              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TIME_OF_TRACK_INFORMATION</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STA</item>
               <item>TRACK_DATA_AGES_MFL</item>
-              <item>TRACK_DATA_AGES_MD1</item>
-              <item>TRACK_DATA_AGES_MD2</item>
-              <item>TRACK_DATA_AGES_MDA</item>
-              <item>TRACK_DATA_AGES_MD4</item>
-              <item>TRACK_DATA_AGES_MD5</item>
-              <item>TRACK_DATA_AGES_MHG</item>
-              <item>TRACK_DATA_AGES_FSS</item>
-              <item>TRACK_DATA_AGES_IAR</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ADR</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_UAT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_IFI</item>
+              <item>MODE_OF_MOVEMENT</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_TVS</item>
               <item>TRACK_DATA_AGES_MAC</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MHG</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MDS</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_MLT</item>
+              <item>TRACK_NUMBER</item>
+              <item>DATA_SOURCE_IDENTIFIER</item>
+              <item>CALCULATED_TRACK_POSITION_WGS84</item>
+              <item>CALCULATED_TRACK_GEO_ALTITUDE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_WTC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ADS_C</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_DEP</item>
+              <item>MEASURED_FLIGHT_LEVEL</item>
+              <item>MEASURED_INFORMATION</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_VDL</item>
+              <item>CALCULATED_TRACK_VELOCITY_CARTESIAN</item>
+              <item>TRACK_DATA_AGES_FSS</item>
+              <item>TRACK_DATA_AGES_MDA</item>
+              <item>SERVICE_IDENTIFICATION</item>
+              <item>TRACK_DATA_AGES_IAR</item>
+              <item>RESERVED_EXPANSION_DATA_FIELD_STS</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CFL</item>
+              <item>TRACK_DATA_AGES_MHG</item>
+              <item>TRACK_DATA_AGES_MD4</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_SSR</item>
+              <item>TRACK_DATA_AGES_MD1</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_ID</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_FCT</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_MAC</item>
+              <item>SYSTEM_TRACK_UPDATE_AGES_ES</item>
+              <item>TRACK_DATA_AGES_MD2</item>
+              <item>TRACK_DATA_AGES_MD5</item>
+              <item>CALCULATED_RATE_OF_CLIMB_DESCENT</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_TAC</item>
+              <item>TRACK_MODE_3A_CODE</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_STD</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CSN</item>
+              <item>FLIGHT_PLAN_RELATED_DATA_CTL</item>
+              <item>TRACK_STATUS</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_FSS</item>
+              <item>CALCULATED_TRACK_POSITION_CARTESIAN</item>
+              <item>MODE_S_ADS_B_RELATED_DATA_IAR</item>
+              <item>CALCULATED_TRACK_BARO_ALTITUDE</item>
             </cat62>
           </item_selectors>
           <transmission_data>
@@ -15871,7 +15849,7 @@
               <batch_periods_per_update_period>20</batch_periods_per_update_period>
               <batches_per_scan>20</batches_per_scan>
               <max_data_flow>127</max_data_flow>
-              <extra_delay>0</extra_delay>
+              <extra_delay>0.0</extra_delay>
             </periodical>
           </transmission_data>
         </background_service>
@@ -15904,38 +15882,34 @@
                   </pos>
                 </area>
               </service_volume>
-              <code_families/>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>GENERAL_AIR_TRAFFIC</category>
-                <category>OPERATIONAL_AIR_TRAFFIC</category>
-                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
                 <category>VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
-                <category>LIVE_TRACKS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
-                <category>TRACKS_WITH_SPI</category>
-                <category>TRACKS_WITH_ME</category>
-                <category>TRACKS_IN_AIR</category>
-                <category>TRACKS_ON_SFC</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
+                <category>LIVE_TRACKS</category>
                 <category>TENTATIVE_TRACKS</category>
+                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>INSTRUMENT_FLIGHT_RULES_TRAFFIC</category>
+                <category>GENERAL_AIR_TRAFFIC</category>
+                <category>CONTROLLED_VISUAL_FLIGHT_RULES_TRAFFIC</category>
+                <category>OPERATIONAL_AIR_TRAFFIC</category>
+                <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_NOT_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_ME</category>
+                <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
-                <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
+                <category>TRACKS_WITH_SPI</category>
               </categories>
               <updates>
                 <service_update>
@@ -15989,9 +15963,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -16012,29 +15984,26 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
-                <category>TRACKS_WITH_VALID_ALTITUDE</category>
-                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
-                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_ASSUMED_HEIGHT</category>
+                <category>TRACKS_WITH_VALID_ALTITUDE</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
+                <category>TRACKS_CORRELATED_TO_FLIGHT_PLAN</category>
               </categories>
               <updates>
                 <service_update>
@@ -16088,9 +16057,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -16111,26 +16078,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -16184,9 +16148,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -16207,26 +16169,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -16280,9 +16239,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
           <complementary_service>
             <available>false</available>
@@ -16303,26 +16260,23 @@
                   <code_wc_4>false</code_wc_4>
                 </code_family>
               </code_families>
-              <departures/>
-              <destinations/>
-              <aircraft_types/>
               <categories>
-                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
-                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
                 <category>TRACKS_FROM_ES_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
-                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
                 <category>TRACKS_IN_AIR</category>
+                <category>TRACKS_FROM_ADS_B_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_VDL4_ONLY_REPORTS</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
+                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
                 <category>TRACKS_ON_SFC</category>
                 <category>TRACKS_FROM_MULTI_TECHNOLOGY</category>
                 <category>CONFIRMED_TRACKS</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_SET</category>
-                <category>TRACKS_WITH_LANDING_INDICATION_NOT_SET</category>
                 <category>TRACKS_WITHOUT_ADS_B_INCONSISTENCY</category>
+                <category>TRACKS_FROM_PRIMARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_WAM_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_UAT_ONLY_REPORTS</category>
+                <category>TRACKS_FROM_SECONDARY_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_COMBINED_ONLY_PLOTS</category>
+                <category>TRACKS_FROM_ADS_C_ONLY_REPORTS</category>
               </categories>
               <updates>
                 <service_update>
@@ -16376,9 +16330,7 @@
             <item_selectors>
               <cat62/>
             </item_selectors>
-            <transmission_data>
-              <type>PERIODICAL</type>
-            </transmission_data>
+            <transmission_data/>
           </complementary_service>
         </complementary_services>
         <sdps_service>
@@ -16400,15 +16352,15 @@
           <item_selectors>
             <cat63>
               <item>DATA_SOURCE_IDENTIFIER</item>
-              <item>TIME_OF_MESSAGE</item>
-              <item>SENSOR_IDENTIFIER</item>
-              <item>SENSOR_CONFIG_STATUS</item>
-              <item>TIME_STAMPING_BIAS</item>
-              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
-              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
-              <item>PSR_RANGE_GAIN_AND_BIAS</item>
               <item>PSR_AZIMUTH_BIAS</item>
               <item>PSR_ELEVATION_BIAS</item>
+              <item>PSR_RANGE_GAIN_AND_BIAS</item>
+              <item>SSR_MODE_S_RANGE_GAIN_AND_BIAS</item>
+              <item>SENSOR_CONFIG_STATUS</item>
+              <item>SSR_MODE_S_AZIMUTH_BIAS</item>
+              <item>TIME_STAMPING_BIAS</item>
+              <item>TIME_OF_MESSAGE</item>
+              <item>SENSOR_IDENTIFIER</item>
             </cat63>
           </item_selectors>
           <transmission_data>
